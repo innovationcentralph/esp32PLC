@@ -497,168 +497,6 @@
 				)
 			)
 		)
-		(symbol "Connector:Conn_01x02_Socket"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02_Socket"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x02_Socket_1_1"
-				(arc
-					(start 0 -2.032)
-					(mid -0.5058 -2.54)
-					(end 0 -3.048)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy -0.508 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0.508)
-					(mid -0.5058 0)
-					(end 0 -0.508)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector:Conn_01x03_Socket"
 			(pin_names
 				(offset 1.016) hide)
@@ -2638,163 +2476,6 @@
 				)
 			)
 		)
-		(symbol "Device:L"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "L"
-				(at -1.27 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "L"
-				(at 1.905 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Inductor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "inductor choke coil reactor magnetic"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "L_0_1"
-				(arc
-					(start 0 -2.54)
-					(mid 0.6323 -1.905)
-					(end 0 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -1.27)
-					(mid 0.6323 -0.635)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.6323 0.635)
-					(end 0 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 1.27)
-					(mid 0.6323 1.905)
-					(end 0 2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "L_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:LED"
 			(pin_numbers hide)
 			(pin_names
@@ -3546,168 +3227,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Diode:1N4001"
-			(pin_numbers hide)
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "1N4001"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*DO?41*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "1N4001_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "1N4001_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6339,495 +5858,6 @@
 				)
 			)
 		)
-		(symbol "Regulator_Linear:AMS1117-3.3"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -3.81 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "AMS1117-3.3"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
-				(at 2.54 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "linear regulator ldo fixed positive"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?223*TabPin2*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "AMS1117-3.3_0_1"
-				(rectangle
-					(start -5.08 -5.08)
-					(end 5.08 1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "AMS1117-3.3_1_1"
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "VO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "VI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Regulator_Switching:LM2596S-12"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -10.16 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "LM2596S-12"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:TO-263-5_TabPin3"
-				(at 1.27 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2596.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "12V 3A Step-Down Voltage Regulator, TO-263"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Step-Down Voltage Regulator 12V 3A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO?263*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LM2596S-12_0_1"
-				(rectangle
-					(start -10.16 5.08)
-					(end 10.16 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "LM2596S-12_1_1"
-				(pin power_in line
-					(at -12.7 2.54 0)
-					(length 2.54)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 12.7 -2.54 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 12.7 2.54 180)
-					(length 2.54)
-					(name "FB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 -2.54 0)
-					(length 2.54)
-					(name "~{ON}/OFF"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Regulator_Switching:LM2596S-5"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -10.16 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "LM2596S-5"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:TO-263-5_TabPin3"
-				(at 1.27 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2596.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "5V 3A Step-Down Voltage Regulator, TO-263"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Step-Down Voltage Regulator 5V 3A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO?263*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LM2596S-5_0_1"
-				(rectangle
-					(start -10.16 5.08)
-					(end 10.16 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "LM2596S-5_1_1"
-				(pin power_in line
-					(at -12.7 2.54 0)
-					(length 2.54)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 12.7 -2.54 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 12.7 2.54 180)
-					(length 2.54)
-					(name "FB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 -2.54 0)
-					(length 2.54)
-					(name "~{ON}/OFF"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Relay:Y14x-1C-xxDS"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -8932,22 +7962,10 @@
 		(uuid "001af9ef-5bd7-426a-a5bf-d0f6fb3d9f94")
 	)
 	(junction
-		(at 622.427 196.088)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "053ba124-e85f-44f2-b816-8f530b958041")
-	)
-	(junction
 		(at 464.058 183.134)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "06420302-1c23-46a5-9306-52577c3b8613")
-	)
-	(junction
-		(at 561.467 156.464)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0763c44e-8f79-450b-8ce5-8c4c03315f13")
 	)
 	(junction
 		(at 102.362 244.348)
@@ -8972,12 +7990,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0e50995a-0883-47e5-9688-a0aec5ec9f66")
-	)
-	(junction
-		(at 244.602 352.806)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0f7d9eb5-e52f-43e4-8e82-d3eae78d5e0a")
 	)
 	(junction
 		(at 355.473 433.07)
@@ -9026,12 +8038,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1bb667fb-539d-44ef-b4b7-74378f665e8c")
-	)
-	(junction
-		(at 621.157 156.4961)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1cef3d20-ad8d-4bfa-80ea-989177e3c6df")
 	)
 	(junction
 		(at 610.362 356.489)
@@ -9088,12 +8094,6 @@
 		(uuid "2f613d9b-eb18-4218-b852-05f4941d0a53")
 	)
 	(junction
-		(at 622.427 196.1201)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "310887e4-6e16-45e1-8ff6-ace87ecab90b")
-	)
-	(junction
 		(at 464.566 97.9881)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9136,30 +8136,6 @@
 		(uuid "3aee7130-6a0b-4ade-af0e-109af4090dff")
 	)
 	(junction
-		(at 602.107 161.544)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3b3b91e9-d65e-4d0d-9a9d-6eb5cde8ce47")
-	)
-	(junction
-		(at 627.507 175.514)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3b6ab23a-2bad-4f75-8377-53b95ea0dda6")
-	)
-	(junction
-		(at 254.762 342.392)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3db81c11-2ae4-4b75-ac6a-4c0c6178be60")
-	)
-	(junction
-		(at 562.864 196.088)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "45c72801-28c7-4faf-8dd6-526f796e5a05")
-	)
-	(junction
 		(at 676.783 363.093)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9170,12 +8146,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "494477c3-a807-4930-89b7-13c554e0c865")
-	)
-	(junction
-		(at 617.347 196.088)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4edea065-4cbf-43b1-85a5-459354b777bb")
 	)
 	(junction
 		(at 472.313 343.154)
@@ -9196,52 +8166,16 @@
 		(uuid "556abac3-f3bb-46c2-b7ec-682ce656da93")
 	)
 	(junction
-		(at 616.077 156.464)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "55c8123a-2dcc-49c4-b983-8c881df8918a")
-	)
-	(junction
-		(at 621.157 156.464)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5830008d-8298-4374-913e-be9c7ec5311f")
-	)
-	(junction
-		(at 655.447 156.464)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "58f3212f-1f0d-4a03-95e8-029bf5a173c4")
-	)
-	(junction
-		(at 617.347 201.168)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "591526c0-4ea3-4aa5-85ab-4743208858ac")
-	)
-	(junction
 		(at 84.328 430.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5937b068-7791-45d4-b1ed-27bde8761d2f")
 	)
 	(junction
-		(at 562.737 196.088)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5c5245d4-1008-4e60-a84c-9528ee12c239")
-	)
-	(junction
 		(at 688.213 348.488)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5d4738ca-4e3f-4fd2-ba1a-45f2ef411050")
-	)
-	(junction
-		(at 603.377 201.168)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5dd17f48-7865-4b40-865f-2be44476cf71")
 	)
 	(junction
 		(at 417.703 352.044)
@@ -9260,12 +8194,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "633ff712-79c5-4f65-b93f-f9e501ed0341")
-	)
-	(junction
-		(at 627.507 156.464)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "63c5b583-6052-4684-a06f-87679f7b7afc")
 	)
 	(junction
 		(at 150.876 358.902)
@@ -9358,12 +8286,6 @@
 		(uuid "799b87c4-6d54-44f2-b7d0-bbf071254683")
 	)
 	(junction
-		(at 616.077 161.544)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "79d26580-c187-4b2a-b930-e76d8e00b8ae")
-	)
-	(junction
 		(at 697.738 337.693)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9400,12 +8322,6 @@
 		(uuid "89777c50-019a-4914-b76e-2cc860f7cd0d")
 	)
 	(junction
-		(at 561.594 156.464)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8c0e43af-3f3b-4cd5-a6c1-3166444309af")
-	)
-	(junction
 		(at 370.84 131.318)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9430,12 +8346,6 @@
 		(uuid "92b2d4f8-b235-4015-b617-2df9d171f751")
 	)
 	(junction
-		(at 617.347 208.788)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "95f58523-8a59-4dae-b22b-10be5339ffb5")
-	)
-	(junction
 		(at 570.992 356.489)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9452,12 +8362,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9bee8e99-7268-43f6-bdf8-a2153522ac02")
-	)
-	(junction
-		(at 627.507 165.989)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a2ad769a-3c9e-483e-9e6e-2fb34515cef4")
 	)
 	(junction
 		(at 236.982 64.516)
@@ -9542,12 +8446,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c9b1311e-31f5-4e22-a5fa-4af2fd1f32e2")
-	)
-	(junction
-		(at 645.287 168.529)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "caa760cb-014f-4b75-83bd-b0d805653c84")
 	)
 	(junction
 		(at 360.426 383.794)
@@ -9656,24 +8554,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f021f86e-296a-4868-ba9f-192fa0e473fd")
-	)
-	(junction
-		(at 616.077 169.164)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f31b16bf-a99c-44e4-9be4-d5e07d41b95c")
-	)
-	(junction
-		(at 635.127 156.464)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f5727d10-9f34-4706-b85c-23e2ee451be1")
-	)
-	(junction
-		(at 254.762 350.012)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f6239f3a-64a5-4b4d-b0c6-9a41ec795163")
 	)
 	(junction
 		(at 62.23 375.666)
@@ -9809,16 +8689,6 @@
 	)
 	(wire
 		(pts
-			(xy 603.377 196.088) (xy 598.932 196.088)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00b49bfd-f19d-4165-ac5a-cc09ee6b597c")
-	)
-	(wire
-		(pts
 			(xy 575.818 51.816) (xy 582.168 51.816)
 		)
 		(stroke
@@ -9859,16 +8729,6 @@
 	)
 	(wire
 		(pts
-			(xy 612.267 161.544) (xy 616.077 161.544)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0228dbe5-c1dd-4542-80f4-ae4d1b301ba4")
-	)
-	(wire
-		(pts
 			(xy 63.754 336.296) (xy 63.754 337.312)
 		)
 		(stroke
@@ -9899,16 +8759,6 @@
 	)
 	(wire
 		(pts
-			(xy 631.952 165.989) (xy 627.507 165.989)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02e42114-17fc-4569-9654-0491f79e982a")
-	)
-	(wire
-		(pts
 			(xy 340.106 376.174) (xy 349.631 376.174)
 		)
 		(stroke
@@ -9916,16 +8766,6 @@
 			(type default)
 		)
 		(uuid "02f7f472-ebbb-4c7a-a281-1fee800f31fb")
-	)
-	(wire
-		(pts
-			(xy 559.562 196.088) (xy 562.737 196.088)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "030f9267-4143-4187-a479-2683b195e359")
 	)
 	(wire
 		(pts
@@ -9959,16 +8799,6 @@
 	)
 	(wire
 		(pts
-			(xy 603.377 194.183) (xy 603.377 196.088)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04874ec0-d4f8-4f3c-87a5-75c98aee85d7")
-	)
-	(wire
-		(pts
 			(xy 67.31 401.066) (xy 67.31 391.922)
 		)
 		(stroke
@@ -9976,16 +8806,6 @@
 			(type default)
 		)
 		(uuid "054bba7b-28a8-4462-b634-6da9a36534fe")
-	)
-	(wire
-		(pts
-			(xy 254.762 342.392) (xy 257.302 342.392)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05881541-e584-47f4-976c-9020ae906dd2")
 	)
 	(wire
 		(pts
@@ -10109,16 +8929,6 @@
 	)
 	(wire
 		(pts
-			(xy 562.737 196.088) (xy 562.864 196.088)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08e19c33-bb2f-4cc3-a2e7-63531f7d90eb")
-	)
-	(wire
-		(pts
 			(xy 575.818 74.676) (xy 582.168 74.676)
 		)
 		(stroke
@@ -10159,16 +8969,6 @@
 	)
 	(wire
 		(pts
-			(xy 252.222 350.012) (xy 254.762 350.012)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bc9fe36-3595-4539-bb12-317bab2cdc8b")
-	)
-	(wire
-		(pts
 			(xy 315.341 358.394) (xy 315.341 357.124)
 		)
 		(stroke
@@ -10196,16 +8996,6 @@
 			(type default)
 		)
 		(uuid "0c5962ec-f4af-4668-8315-88a8ece86ec2")
-	)
-	(wire
-		(pts
-			(xy 575.818 87.376) (xy 582.168 87.376)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c87376e-9375-4149-8d15-740c08e1bd7b")
 	)
 	(wire
 		(pts
@@ -10419,16 +9209,6 @@
 	)
 	(wire
 		(pts
-			(xy 622.427 201.168) (xy 622.427 196.1201)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "172c4a6d-ceb3-4ed2-b7b7-405eb878cb8b")
-	)
-	(wire
-		(pts
 			(xy 370.332 89.916) (xy 373.126 89.916)
 		)
 		(stroke
@@ -10436,36 +9216,6 @@
 			(type default)
 		)
 		(uuid "1819fb5a-607d-43ca-9480-04b579e8c876")
-	)
-	(wire
-		(pts
-			(xy 240.538 357.886) (xy 244.348 357.886)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18d5bfb0-ed11-4ef4-b8a9-380989b744e3")
-	)
-	(wire
-		(pts
-			(xy 244.602 341.63) (xy 244.602 352.806)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18faeb3f-3f65-4258-951e-31df601f5c79")
-	)
-	(wire
-		(pts
-			(xy 605.917 194.183) (xy 605.917 196.088)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19522acb-21cd-466b-ab9a-1d91f1e4248f")
 	)
 	(wire
 		(pts
@@ -10609,16 +9359,6 @@
 	)
 	(wire
 		(pts
-			(xy 621.157 156.464) (xy 627.507 156.464)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d1ca712-7f47-49f4-9e42-95f1d7a71044")
-	)
-	(wire
-		(pts
 			(xy 227.33 101.092) (xy 236.982 101.092)
 		)
 		(stroke
@@ -10656,16 +9396,6 @@
 			(type default)
 		)
 		(uuid "20e1d7ee-3ba2-4680-9957-20c4644dbaa3")
-	)
-	(wire
-		(pts
-			(xy 645.287 164.084) (xy 645.287 168.529)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "219e88e2-c40d-4989-a7c8-aee0f6b413bc")
 	)
 	(wire
 		(pts
@@ -10879,16 +9609,6 @@
 	)
 	(wire
 		(pts
-			(xy 240.538 352.806) (xy 244.602 352.806)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29999329-41e8-49ee-beb3-4734bf88dabf")
-	)
-	(wire
-		(pts
 			(xy 594.487 364.109) (xy 600.837 364.109)
 		)
 		(stroke
@@ -10969,16 +9689,6 @@
 	)
 	(wire
 		(pts
-			(xy 616.077 169.164) (xy 621.157 169.164)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2aa0fbd2-f090-4798-b462-ac3c8206cf21")
-	)
-	(wire
-		(pts
 			(xy 443.23 138.176) (xy 445.262 138.176)
 		)
 		(stroke
@@ -11016,16 +9726,6 @@
 			(type default)
 		)
 		(uuid "2de11780-f579-4c30-bd02-8fe63c1bac05")
-	)
-	(wire
-		(pts
-			(xy 621.157 156.4961) (xy 621.157 156.464)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2df18789-5d81-4ebe-b8d1-ecff30694377")
 	)
 	(wire
 		(pts
@@ -11419,16 +10119,6 @@
 	)
 	(wire
 		(pts
-			(xy 562.864 196.088) (xy 562.864 192.786)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3cdca8bc-ae1a-444d-a889-637a1c9612be")
-	)
-	(wire
-		(pts
 			(xy 110.49 87.122) (xy 110.49 87.884)
 		)
 		(stroke
@@ -11466,16 +10156,6 @@
 			(type default)
 		)
 		(uuid "3d7d6abe-072d-4f46-88bc-a10c563f3540")
-	)
-	(wire
-		(pts
-			(xy 244.856 360.426) (xy 244.856 360.934)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3dcd1f8c-d284-4469-88ee-be37cb98e0da")
 	)
 	(wire
 		(pts
@@ -11519,16 +10199,6 @@
 	)
 	(wire
 		(pts
-			(xy 576.834 89.916) (xy 582.168 89.916)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40d1cb9d-7425-4457-9c1f-86bc078daa5c")
-	)
-	(wire
-		(pts
 			(xy 593.852 345.694) (xy 593.852 343.789)
 		)
 		(stroke
@@ -11536,16 +10206,6 @@
 			(type default)
 		)
 		(uuid "4126a5e1-7532-4703-945f-be4c7ec1ac29")
-	)
-	(wire
-		(pts
-			(xy 240.538 355.346) (xy 244.348 355.346)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "417d5d28-e5a7-45d9-aab2-691cebac0985")
 	)
 	(wire
 		(pts
@@ -11599,16 +10259,6 @@
 	)
 	(wire
 		(pts
-			(xy 635.127 165.354) (xy 635.127 168.529)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42c50783-fffd-499a-81e5-9135cf21e651")
-	)
-	(wire
-		(pts
 			(xy 427.863 353.949) (xy 427.863 352.044)
 		)
 		(stroke
@@ -11646,26 +10296,6 @@
 			(type default)
 		)
 		(uuid "43d1eaa1-1a7f-4ae0-8498-a510bf550a35")
-	)
-	(wire
-		(pts
-			(xy 622.4762 192.7662) (xy 622.4762 196.1201)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43d4f16c-ef54-443e-9913-0464b784be6b")
-	)
-	(wire
-		(pts
-			(xy 571.627 201.168) (xy 571.627 206.248)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43f4ca01-8591-4013-88b0-51275f951eb0")
 	)
 	(wire
 		(pts
@@ -11726,16 +10356,6 @@
 			(type default)
 		)
 		(uuid "4829cee5-a7dd-4adc-9708-d63b5777a041")
-	)
-	(wire
-		(pts
-			(xy 598.932 201.168) (xy 603.377 201.168)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48b0629f-f459-4fe0-a51b-e6e0b2f89882")
 	)
 	(wire
 		(pts
@@ -11949,16 +10569,6 @@
 	)
 	(wire
 		(pts
-			(xy 605.917 196.088) (xy 617.347 196.088)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5132bfdc-c70b-4e74-8fae-a8131dca1d2c")
-	)
-	(wire
-		(pts
 			(xy 62.23 375.666) (xy 62.23 376.682)
 		)
 		(stroke
@@ -11976,16 +10586,6 @@
 			(type default)
 		)
 		(uuid "51faded0-77f0-422c-8fe7-a8e3f79a2bcf")
-	)
-	(wire
-		(pts
-			(xy 603.377 201.168) (xy 605.917 201.168)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "528cb96a-e207-42fd-aa78-53aa23f6b23b")
 	)
 	(wire
 		(pts
@@ -12056,16 +10656,6 @@
 			(type default)
 		)
 		(uuid "56a54d9a-a8f3-466f-bcad-e57132620afd")
-	)
-	(wire
-		(pts
-			(xy 614.553 85.344) (xy 621.792 85.344)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "572c6620-6c32-4300-ab50-0d3379cc8cbe")
 	)
 	(wire
 		(pts
@@ -12199,16 +10789,6 @@
 	)
 	(wire
 		(pts
-			(xy 655.447 156.464) (xy 652.907 156.464)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b786994-1abe-4805-bc0f-038aa7262641")
-	)
-	(wire
-		(pts
 			(xy 63.246 456.692) (xy 63.246 457.2)
 		)
 		(stroke
@@ -12249,16 +10829,6 @@
 	)
 	(wire
 		(pts
-			(xy 597.027 156.464) (xy 602.107 156.464)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d09544e-12ec-421d-8338-3ebba028ef07")
-	)
-	(wire
-		(pts
 			(xy 106.426 233.934) (xy 106.426 232.41)
 		)
 		(stroke
@@ -12296,16 +10866,6 @@
 			(type default)
 		)
 		(uuid "5f28f039-2c47-4487-8bab-71225d47f115")
-	)
-	(wire
-		(pts
-			(xy 628.777 204.978) (xy 628.777 206.248)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f48b269-04b8-41f3-a0f4-f1f68ca10be7")
 	)
 	(wire
 		(pts
@@ -12399,26 +10959,6 @@
 	)
 	(wire
 		(pts
-			(xy 254.762 350.012) (xy 257.302 350.012)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "642a635a-35b4-422f-bcb2-5d79b74ad50e")
-	)
-	(wire
-		(pts
-			(xy 628.777 213.868) (xy 628.777 217.043)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "646d02fe-a8b1-40a9-9aff-d6ed587fe7b2")
-	)
-	(wire
-		(pts
 			(xy 305.181 374.269) (xy 305.181 375.539)
 		)
 		(stroke
@@ -12439,16 +10979,6 @@
 	)
 	(wire
 		(pts
-			(xy 622.427 196.1201) (xy 622.427 196.088)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6527a2df-b555-4486-92cd-3ec9cf2e427e")
-	)
-	(wire
-		(pts
 			(xy 442.976 188.214) (xy 442.976 189.738)
 		)
 		(stroke
@@ -12456,16 +10986,6 @@
 			(type default)
 		)
 		(uuid "6527aeaa-dad6-4ace-b4f0-46704607fcae")
-	)
-	(wire
-		(pts
-			(xy 627.507 174.244) (xy 627.507 175.514)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "653d4feb-4fa0-426f-95bf-f8f944d1e0fb")
 	)
 	(wire
 		(pts
@@ -12649,16 +11169,6 @@
 	)
 	(wire
 		(pts
-			(xy 617.347 196.088) (xy 617.347 201.168)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6bbd4806-6c8c-444a-acf3-db45f2558315")
-	)
-	(wire
-		(pts
 			(xy 370.586 232.156) (xy 373.38 232.156)
 		)
 		(stroke
@@ -12689,16 +11199,6 @@
 	)
 	(wire
 		(pts
-			(xy 655.447 168.529) (xy 645.287 168.529)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d94cf51-7da4-44d1-a0d5-cf5c5daca97c")
-	)
-	(wire
-		(pts
 			(xy 249.174 67.818) (xy 249.174 64.516)
 		)
 		(stroke
@@ -12706,16 +11206,6 @@
 			(type default)
 		)
 		(uuid "6db88e76-0e9b-48a0-b3c4-96f1bb14408b")
-	)
-	(wire
-		(pts
-			(xy 627.507 156.464) (xy 627.507 157.734)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e08e0f8-5d10-44ab-8056-8a8590f859f3")
 	)
 	(wire
 		(pts
@@ -12829,26 +11319,6 @@
 	)
 	(wire
 		(pts
-			(xy 576.834 92.456) (xy 582.168 92.456)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7331cf1b-6189-4b0f-9065-226ec44fe50d")
-	)
-	(wire
-		(pts
-			(xy 478.663 387.604) (xy 481.584 387.604)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "736a1412-8124-4c36-a9eb-6f776cc79d5d")
-	)
-	(wire
-		(pts
 			(xy 443.23 136.144) (xy 443.23 138.176)
 		)
 		(stroke
@@ -12939,16 +11409,6 @@
 	)
 	(wire
 		(pts
-			(xy 244.602 352.806) (xy 254.762 352.806)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "779c821b-6da3-451d-96d9-45f6f70fba6d")
-	)
-	(wire
-		(pts
 			(xy 116.586 73.406) (xy 116.586 71.628)
 		)
 		(stroke
@@ -12966,16 +11426,6 @@
 			(type default)
 		)
 		(uuid "7837007e-356b-42b0-b97e-5cda20636214")
-	)
-	(wire
-		(pts
-			(xy 597.027 161.544) (xy 602.107 161.544)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7845d6dd-ef46-43f3-8b32-53dd0b574e3c")
 	)
 	(wire
 		(pts
@@ -13079,26 +11529,6 @@
 	)
 	(wire
 		(pts
-			(xy 571.627 161.544) (xy 570.357 161.544)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7cd6b596-da62-45bb-a832-872860d9508c")
-	)
-	(wire
-		(pts
-			(xy 617.347 208.788) (xy 622.427 208.788)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ce0f829-43d7-493d-b67b-3c7ec5ac6adf")
-	)
-	(wire
-		(pts
 			(xy 75.946 464.82) (xy 73.406 464.82)
 		)
 		(stroke
@@ -13129,16 +11559,6 @@
 	)
 	(wire
 		(pts
-			(xy 254.762 341.376) (xy 254.762 342.392)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d9a0463-d352-44c8-8af9-e96c6205c497")
-	)
-	(wire
-		(pts
 			(xy 83.82 138.176) (xy 86.614 138.176)
 		)
 		(stroke
@@ -13146,16 +11566,6 @@
 			(type default)
 		)
 		(uuid "7d9b6819-9679-4af6-b882-ff6b0fef1023")
-	)
-	(wire
-		(pts
-			(xy 614.553 80.264) (xy 621.792 80.264)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e00c908-b2fa-4a35-88a0-f9aad833fde2")
 	)
 	(wire
 		(pts
@@ -13259,16 +11669,6 @@
 	)
 	(wire
 		(pts
-			(xy 575.818 82.296) (xy 582.168 82.296)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f7b7dc9-93af-491d-b154-452f4419b089")
-	)
-	(wire
-		(pts
 			(xy 614.553 52.324) (xy 620.903 52.324)
 		)
 		(stroke
@@ -13276,16 +11676,6 @@
 			(type default)
 		)
 		(uuid "7f8e7026-9af0-4238-8c76-b25c4a5dc2b9")
-	)
-	(wire
-		(pts
-			(xy 602.107 161.544) (xy 604.647 161.544)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7fcb53d2-d4b7-4ade-923f-bb147ad057f2")
 	)
 	(wire
 		(pts
@@ -13479,16 +11869,6 @@
 	)
 	(wire
 		(pts
-			(xy 604.647 154.559) (xy 604.647 156.464)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88c94948-ef76-42cc-a8c0-e034d893c072")
-	)
-	(wire
-		(pts
 			(xy 340.741 330.454) (xy 339.471 330.454)
 		)
 		(stroke
@@ -13506,16 +11886,6 @@
 			(type default)
 		)
 		(uuid "89cef89f-6c12-40d5-a186-071d6e9744da")
-	)
-	(wire
-		(pts
-			(xy 627.507 156.464) (xy 635.127 156.464)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a5ddb5c-8136-461e-ac0f-695cacc45eaf")
 	)
 	(wire
 		(pts
@@ -13659,36 +12029,6 @@
 	)
 	(wire
 		(pts
-			(xy 616.077 156.464) (xy 621.157 156.464)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ef56f99-85db-41ae-b4ae-aedabb271321")
-	)
-	(wire
-		(pts
-			(xy 628.777 196.088) (xy 628.777 197.358)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f7ea51b-a252-471c-bfed-60e4efce5443")
-	)
-	(wire
-		(pts
-			(xy 621.2062 156.4961) (xy 621.157 156.4961)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f93b929-a0d7-40b8-8e3c-3cc0e314649a")
-	)
-	(wire
-		(pts
 			(xy 208.28 254) (xy 211.074 254)
 		)
 		(stroke
@@ -13726,16 +12066,6 @@
 			(type default)
 		)
 		(uuid "9141d7de-bc58-44b8-b487-91350af8b95c")
-	)
-	(wire
-		(pts
-			(xy 635.127 156.464) (xy 637.667 156.464)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "919f5b2b-78f9-4199-b570-8e1f9dd81786")
 	)
 	(wire
 		(pts
@@ -13859,16 +12189,6 @@
 	)
 	(wire
 		(pts
-			(xy 604.647 156.464) (xy 616.077 156.464)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "968ff8c6-6a76-44be-967d-9891c30bf0ea")
-	)
-	(wire
-		(pts
 			(xy 190.754 194.564) (xy 190.754 199.136)
 		)
 		(stroke
@@ -13889,16 +12209,6 @@
 	)
 	(wire
 		(pts
-			(xy 645.287 168.529) (xy 645.287 174.244)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9799946b-ca99-4c00-b4b2-3ffe0ae17764")
-	)
-	(wire
-		(pts
 			(xy 100.33 202.438) (xy 100.33 203.454)
 		)
 		(stroke
@@ -13909,16 +12219,6 @@
 	)
 	(wire
 		(pts
-			(xy 478.663 390.144) (xy 481.584 390.144)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97cd07bd-b105-48d4-a774-86e59cc976e8")
-	)
-	(wire
-		(pts
 			(xy 674.878 366.903) (xy 678.053 366.903)
 		)
 		(stroke
@@ -13926,16 +12226,6 @@
 			(type default)
 		)
 		(uuid "9828fc34-fccc-431d-bdae-412be948fe3b")
-	)
-	(wire
-		(pts
-			(xy 622.4762 196.1201) (xy 622.427 196.1201)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "988b4e9f-d695-4272-a5ab-12e0fa1b5003")
 	)
 	(wire
 		(pts
@@ -13976,26 +12266,6 @@
 			(type default)
 		)
 		(uuid "9a09a3c3-f420-40db-a757-d1a8874e2e89")
-	)
-	(wire
-		(pts
-			(xy 655.447 165.354) (xy 655.447 168.529)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a0c5f32-9ad2-46fb-a152-b9de0915b0ec")
-	)
-	(wire
-		(pts
-			(xy 562.864 196.088) (xy 573.532 196.088)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a23c3fe-ef2e-4de6-9790-28c7eb728eb2")
 	)
 	(wire
 		(pts
@@ -14126,16 +12396,6 @@
 			(type default)
 		)
 		(uuid "a0d58b32-2a9c-4bf6-b4b3-73727fb867ae")
-	)
-	(wire
-		(pts
-			(xy 254.762 352.806) (xy 254.762 350.012)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a259ed01-0c68-49e9-a60f-69b8fe206d62")
 	)
 	(wire
 		(pts
@@ -14319,16 +12579,6 @@
 	)
 	(wire
 		(pts
-			(xy 252.222 342.392) (xy 254.762 342.392)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8b75155-bd0c-4187-9150-72fa87557d71")
-	)
-	(wire
-		(pts
 			(xy 614.553 54.864) (xy 620.903 54.864)
 		)
 		(stroke
@@ -14346,16 +12596,6 @@
 			(type default)
 		)
 		(uuid "a965f2d8-5e2e-4f55-ac56-8ffbcacc2b41")
-	)
-	(wire
-		(pts
-			(xy 561.594 156.464) (xy 571.627 156.464)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9709dc6-d3d4-46d2-9fd7-520d7fc380c8")
 	)
 	(wire
 		(pts
@@ -14386,16 +12626,6 @@
 			(type default)
 		)
 		(uuid "aa284867-0b73-4788-8b2c-ad97f91d39cd")
-	)
-	(wire
-		(pts
-			(xy 617.347 196.088) (xy 622.427 196.088)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa367c8c-35c8-43a1-81f4-90f78d05a8f8")
 	)
 	(wire
 		(pts
@@ -14446,16 +12676,6 @@
 			(type default)
 		)
 		(uuid "abef3ace-fbfd-4a37-9602-bc4784c1c8b2")
-	)
-	(wire
-		(pts
-			(xy 655.447 155.194) (xy 655.447 156.464)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "acc9ab25-204f-4673-849f-c30a83646d7d")
 	)
 	(wire
 		(pts
@@ -14526,16 +12746,6 @@
 			(type default)
 		)
 		(uuid "adb33eae-df92-4991-8dca-090b1c6a79de")
-	)
-	(wire
-		(pts
-			(xy 635.127 156.464) (xy 635.127 157.734)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "add8a23e-3548-4839-80a0-3127028ce6fd")
 	)
 	(wire
 		(pts
@@ -14669,26 +12879,6 @@
 	)
 	(wire
 		(pts
-			(xy 240.538 360.426) (xy 244.856 360.426)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2ed006b-500a-4507-8ea1-0015a7814f77")
-	)
-	(wire
-		(pts
-			(xy 631.952 169.799) (xy 631.952 165.989)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b31f326d-9f7a-4a7f-b844-94383b571e24")
-	)
-	(wire
-		(pts
 			(xy 209.042 199.136) (xy 211.836 199.136)
 		)
 		(stroke
@@ -14726,16 +12916,6 @@
 			(type default)
 		)
 		(uuid "b4b2adca-9a45-4ad0-9888-f5d713a46bff")
-	)
-	(wire
-		(pts
-			(xy 635.127 168.529) (xy 645.287 168.529)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4c85d54-fee6-4bd4-bfe1-0a857b732bfb")
 	)
 	(wire
 		(pts
@@ -14796,26 +12976,6 @@
 			(type default)
 		)
 		(uuid "b850943b-844e-449d-9435-fa9efe007b0e")
-	)
-	(wire
-		(pts
-			(xy 561.467 164.084) (xy 561.467 166.624)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8742404-48a0-485c-b9da-e7411e5538d9")
-	)
-	(wire
-		(pts
-			(xy 616.077 156.464) (xy 616.077 161.544)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8cd120c-d8f2-4f08-a45f-27402f5512f8")
 	)
 	(wire
 		(pts
@@ -14989,16 +13149,6 @@
 	)
 	(wire
 		(pts
-			(xy 570.357 161.544) (xy 570.357 166.624)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "becfec64-9eb8-4629-8505-5e39a0b9a7fa")
-	)
-	(wire
-		(pts
 			(xy 337.058 462.28) (xy 337.058 464.82)
 		)
 		(stroke
@@ -15006,16 +13156,6 @@
 			(type default)
 		)
 		(uuid "bffdf096-808d-4d02-9508-e1f25d00969c")
-	)
-	(wire
-		(pts
-			(xy 576.834 94.996) (xy 582.168 94.996)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0b2bc5d-e485-4d3b-a54d-91e38b183885")
 	)
 	(wire
 		(pts
@@ -15046,16 +13186,6 @@
 			(type default)
 		)
 		(uuid "c16219ab-3d32-4819-8cb7-7d6dd367d3b4")
-	)
-	(wire
-		(pts
-			(xy 558.292 156.464) (xy 561.467 156.464)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c16b9d79-c067-474e-8ca1-35eb4ed601a6")
 	)
 	(wire
 		(pts
@@ -15099,16 +13229,6 @@
 	)
 	(wire
 		(pts
-			(xy 631.952 175.514) (xy 627.507 175.514)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c32045c7-9525-46e9-aef3-6ee9a4be7db0")
-	)
-	(wire
-		(pts
 			(xy 228.346 157.226) (xy 237.998 157.226)
 		)
 		(stroke
@@ -15126,16 +13246,6 @@
 			(type default)
 		)
 		(uuid "c3341d76-775f-4e61-a1a8-b0c3fbaeb1aa")
-	)
-	(wire
-		(pts
-			(xy 631.952 172.339) (xy 631.952 175.514)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c348e210-261c-4907-ac16-c0650aeefc63")
 	)
 	(wire
 		(pts
@@ -15179,16 +13289,6 @@
 	)
 	(wire
 		(pts
-			(xy 627.507 175.514) (xy 627.507 177.419)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c646f65b-17be-41a2-8b49-f277f0109208")
-	)
-	(wire
-		(pts
 			(xy 342.011 338.709) (xy 342.011 337.439)
 		)
 		(stroke
@@ -15216,16 +13316,6 @@
 			(type default)
 		)
 		(uuid "c7ab7065-5af6-44cf-ab0f-c530cde9f0f1")
-	)
-	(wire
-		(pts
-			(xy 627.507 165.989) (xy 627.507 166.624)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8b9909f-a676-45b9-bb5b-6486794e018a")
 	)
 	(wire
 		(pts
@@ -15359,16 +13449,6 @@
 	)
 	(wire
 		(pts
-			(xy 614.553 90.424) (xy 621.792 90.424)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce0f26e8-e262-46e8-a583-e896d1df59df")
-	)
-	(wire
-		(pts
 			(xy 328.676 330.454) (xy 329.311 330.454)
 		)
 		(stroke
@@ -15416,16 +13496,6 @@
 			(type default)
 		)
 		(uuid "cf14e231-5612-44c6-9155-f39ba73073c7")
-	)
-	(wire
-		(pts
-			(xy 575.818 84.836) (xy 582.168 84.836)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf19c4c6-215b-4ef3-9067-588c3d1a6638")
 	)
 	(wire
 		(pts
@@ -15569,16 +13639,6 @@
 	)
 	(wire
 		(pts
-			(xy 561.594 153.162) (xy 561.594 156.464)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d44de9f1-4c37-4e97-a7a5-a75b119ae154")
-	)
-	(wire
-		(pts
 			(xy 704.723 366.903) (xy 714.248 366.903)
 		)
 		(stroke
@@ -15636,16 +13696,6 @@
 			(type default)
 		)
 		(uuid "d5ff4bec-c13a-4718-934d-a65d802d4981")
-	)
-	(wire
-		(pts
-			(xy 613.537 201.168) (xy 617.347 201.168)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d600f1e6-0358-4e16-bdf1-7694e3c0304a")
 	)
 	(wire
 		(pts
@@ -15869,16 +13919,6 @@
 	)
 	(wire
 		(pts
-			(xy 622.427 196.088) (xy 628.777 196.088)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de95c490-84a8-4cb7-924c-e8b859bce098")
-	)
-	(wire
-		(pts
 			(xy 673.608 361.823) (xy 674.878 361.823)
 		)
 		(stroke
@@ -15956,16 +13996,6 @@
 			(type default)
 		)
 		(uuid "e0bc4433-88ea-4a42-a41d-64f5a4ee1027")
-	)
-	(wire
-		(pts
-			(xy 614.553 87.884) (xy 621.792 87.884)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0ef4dce-daa0-4c70-8df7-319d679247ae")
 	)
 	(wire
 		(pts
@@ -16069,16 +14099,6 @@
 	)
 	(wire
 		(pts
-			(xy 627.507 165.354) (xy 627.507 165.989)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3dd571c-46ca-4311-b7eb-193116e52cef")
-	)
-	(wire
-		(pts
 			(xy 342.011 355.219) (xy 342.011 355.854)
 		)
 		(stroke
@@ -16179,16 +14199,6 @@
 	)
 	(wire
 		(pts
-			(xy 602.107 156.464) (xy 602.107 154.559)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea29fc75-1439-4c8f-b723-9054cc659800")
-	)
-	(wire
-		(pts
 			(xy 444.754 231.394) (xy 442.976 231.394)
 		)
 		(stroke
@@ -16196,16 +14206,6 @@
 			(type default)
 		)
 		(uuid "ea75d0b5-496c-4a97-a67e-2dfc0e914279")
-	)
-	(wire
-		(pts
-			(xy 655.447 156.464) (xy 655.447 157.734)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ebc3057e-20dd-4141-9a68-33a1b71149f1")
 	)
 	(wire
 		(pts
@@ -16236,16 +14236,6 @@
 			(type default)
 		)
 		(uuid "ed1cf814-7ae5-49d8-907e-5f65eec819ff")
-	)
-	(wire
-		(pts
-			(xy 561.467 156.464) (xy 561.594 156.464)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed3164b7-06ac-4652-95ac-7ae095434ad9")
 	)
 	(wire
 		(pts
@@ -16316,16 +14306,6 @@
 			(type default)
 		)
 		(uuid "ef18ebef-20d8-4eca-961e-53342a219e3d")
-	)
-	(wire
-		(pts
-			(xy 621.157 161.544) (xy 621.157 156.4961)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef269f61-8bac-4a25-a25e-5fd3f674eb88")
 	)
 	(wire
 		(pts
@@ -16489,16 +14469,6 @@
 	)
 	(wire
 		(pts
-			(xy 614.553 82.804) (xy 621.792 82.804)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f49da33f-f1b2-4492-83fc-c7b77e94fc43")
-	)
-	(wire
-		(pts
 			(xy 85.598 473.456) (xy 85.598 474.726)
 		)
 		(stroke
@@ -16599,16 +14569,6 @@
 	)
 	(wire
 		(pts
-			(xy 571.627 201.168) (xy 573.532 201.168)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f732a789-c4dd-40ca-ac72-6d1a1ad4ee95")
-	)
-	(wire
-		(pts
 			(xy 65.278 83.312) (xy 65.278 87.884)
 		)
 		(stroke
@@ -16656,16 +14616,6 @@
 			(type default)
 		)
 		(uuid "f8cabbd7-ab27-436e-8763-df541ef83630")
-	)
-	(wire
-		(pts
-			(xy 621.2062 153.1422) (xy 621.2062 156.4961)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9460898-cac6-4d74-9cc6-b561cfbcab8d")
 	)
 	(wire
 		(pts
@@ -16749,16 +14699,6 @@
 	)
 	(wire
 		(pts
-			(xy 562.737 203.708) (xy 562.737 206.248)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc5d4eb2-1370-48c3-8441-6c2c3930891a")
-	)
-	(wire
-		(pts
 			(xy 218.694 355.346) (xy 220.218 355.346)
 		)
 		(stroke
@@ -16839,19 +14779,6 @@
 			(justify left bottom)
 		)
 		(uuid "0901fff9-c839-460e-971c-586fdae6fde1")
-	)
-	(text "POWER SUPPLY"
-		(exclude_from_sim no)
-		(at 576.072 133.604 0)
-		(effects
-			(font
-				(size 5 5)
-				(thickness 1)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "2f50647c-58ec-4a62-8bc1-511a18f93160")
 	)
 	(text "DRY CONTACT\nOUTPUT"
 		(exclude_from_sim no)
@@ -17279,28 +15206,6 @@
 			)
 		)
 	)
-	(global_label "ESP_SDA"
-		(shape input)
-		(at 244.348 355.346 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left)
-		)
-		(uuid "1977f352-5d8d-4ace-95c3-e0aa1c99ca64")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 253.2673 355.346 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "ADC_IN_0"
 		(shape input)
 		(at 91.694 353.568 0)
@@ -17314,28 +15219,6 @@
 		(uuid "1d21e1d5-792b-4136-9183-0f24f8febe5a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 103.3878 353.568 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "ESP_SCL"
-		(shape input)
-		(at 244.348 357.886 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left)
-		)
-		(uuid "1d51c14c-467f-4b98-8f52-bcf0c0f964ee")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 253.2189 357.886 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17407,28 +15290,6 @@
 					(size 1 1)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "ESP_SDA"
-		(shape input)
-		(at 481.584 387.604 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left)
-		)
-		(uuid "2bc431e7-29e1-4f37-b1a0-1a365055bb07")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 490.5033 387.604 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -17537,28 +15398,6 @@
 			(effects
 				(font
 					(size 1 1)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "24VIN"
-		(shape input)
-		(at 558.292 156.464 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "358a538b-02a9-4e95-b7a1-b3617ecf1e1e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 549.8639 156.464 0)
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
 				(justify right)
 				(hide yes)
@@ -18573,28 +16412,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "ESP_SCL"
-		(shape input)
-		(at 481.584 390.144 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left)
-		)
-		(uuid "8bc43f44-aed3-4e07-8b3e-84d00bf5dc61")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 490.4549 390.144 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -20073,28 +17890,6 @@
 			)
 		)
 	)
-	(global_label "24VIN"
-		(shape input)
-		(at 559.562 196.088 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "fc547fa2-e97f-4926-8673-873ab6da7926")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 551.1339 196.088 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "ADC_IN_3"
 		(shape input)
 		(at 127 358.902 180)
@@ -20209,72 +18004,6 @@
 			(project "PLC Arduino"
 				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80"
 					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5VA")
-		(at 621.2062 153.1422 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "01160639-b81d-4ba0-a5fd-9edfe3410f5c")
-		(property "Reference" "#PWR0118"
-			(at 621.2062 156.9522 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5VA"
-			(at 621.2062 148.8242 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 621.2062 153.1422 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 621.2062 153.1422 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5VA\""
-			(at 621.2062 153.1422 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6bb51a61-3f53-4545-9cc3-eb2ab64b8e2d")
-		)
-		(instances
-			(project "PLC Arduino"
-				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80"
-					(reference "#PWR0118")
 					(unit 1)
 				)
 			)
@@ -20823,84 +18552,6 @@
 			(project "PLC Arduino"
 				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80"
 					(reference "R32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 617.347 204.978 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "078132a1-b08e-43d5-9f62-9fa7790eba24")
-		(property "Reference" "C29"
-			(at 610.997 202.438 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220uF"
-			(at 614.807 211.963 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_Elec_6.3x7.7"
-			(at 618.3122 208.788 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 617.347 204.978 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 617.347 204.978 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C4747974"
-			(at 617.347 204.978 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e74ee704-56d5-4843-b766-9b8be5f3b515")
-		)
-		(pin "2"
-			(uuid "a8d6ad41-704e-4829-ac64-e76c4210906a")
-		)
-		(instances
-			(project "PLC Arduino"
-				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80"
-					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -22250,71 +19901,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 244.602 341.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1796d477-8277-43c5-9b5b-d26afd36c534")
-		(property "Reference" "#PWR0114"
-			(at 244.602 345.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 248.412 340.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 244.602 341.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 244.602 341.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 244.602 341.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a698faa9-7836-4c68-827c-c24084cae335")
-		)
-		(instances
-			(project "PLC Arduino"
-				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80"
-					(reference "#PWR0114")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+12VA")
 		(at 70.866 477.774 270)
 		(unit 1)
@@ -22613,84 +20199,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 562.737 199.898 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1998d21a-6344-401e-9f72-a6b1dc71df2b")
-		(property "Reference" "C28"
-			(at 564.007 197.358 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100uF"
-			(at 564.007 203.073 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_Elec_10x10.2"
-			(at 563.7022 203.708 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 562.737 199.898 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 562.737 199.898 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" " C28241"
-			(at 562.737 199.898 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "68c5ee1e-f676-46f6-b08b-98e4cfc143a6")
-		)
-		(pin "2"
-			(uuid "3b94ff70-48b8-4b84-9019-febb6e0bf8d6")
-		)
-		(instances
-			(project "PLC Arduino"
-				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80"
-					(reference "C28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 495.173 350.139 0)
 		(unit 1)
@@ -22762,103 +20270,6 @@
 			(project "PLC Arduino"
 				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80"
 					(reference "SW2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4001")
-		(at 602.107 165.354 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "19a0bb1a-cd60-4c16-85e0-32f222205c03")
-		(property "Reference" "D15"
-			(at 604.647 164.0839 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SS54"
-			(at 604.647 166.6239 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 602.107 165.354 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 602.107 165.354 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
-			(at 602.107 165.354 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 602.107 165.354 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 602.107 165.354 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C22452"
-			(at 602.107 165.354 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6193f091-f012-463a-8dce-4a28c080be20")
-		)
-		(pin "1"
-			(uuid "935a8563-7902-4a09-9726-894b60bc1f02")
-		)
-		(instances
-			(project "PLC Arduino"
-				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80"
-					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -23307,94 +20718,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Switching:LM2596S-5")
-		(at 584.327 159.004 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1d07c1b1-1537-492f-80b1-bb0910fb0876")
-		(property "Reference" "U28"
-			(at 584.327 148.844 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM2596S-5"
-			(at 584.327 151.384 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-263-5_TabPin3"
-			(at 585.597 165.354 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2596.pdf"
-			(at 584.327 159.004 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "5V 3A Step-Down Voltage Regulator, TO-263"
-			(at 584.327 159.004 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C347421"
-			(at 584.327 159.004 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c8c1762b-9b41-4aab-a325-53b12e7212a7")
-		)
-		(pin "3"
-			(uuid "77973480-2bb2-44a3-bcd9-3b76fdc63c1d")
-		)
-		(pin "1"
-			(uuid "a68f6850-f5f2-47bd-a76e-9d072c1a702f")
-		)
-		(pin "5"
-			(uuid "ebbd7851-8a28-438a-8cd0-114f27fc8ecc")
-		)
-		(pin "4"
-			(uuid "99dd8f5f-f0db-40b6-8871-44fd2393a1fe")
-		)
-		(instances
-			(project "PLC Arduino"
-				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80"
-					(reference "U28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Jumper:SolderJumper_3_Open")
 		(at 79.502 62.992 0)
 		(unit 1)
@@ -23527,72 +20850,6 @@
 			(project "PLC Arduino"
 				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80"
 					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDPWR")
-		(at 627.507 177.419 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1fa50983-712c-437c-b37e-20d9f8f44d11")
-		(property "Reference" "#PWR0124"
-			(at 627.507 182.499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 627.38 181.229 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 627.507 178.689 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 627.507 178.689 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 627.507 177.419 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "121dbe8e-75f4-45e7-bff6-76eba45bae53")
-		)
-		(instances
-			(project "PLC Arduino"
-				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80"
-					(reference "#PWR0124")
 					(unit 1)
 				)
 			)
@@ -23735,72 +20992,6 @@
 			(project "PLC Arduino"
 				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80"
 					(reference "#PWR0107")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDPWR")
-		(at 602.107 169.164 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2270ed7c-94ad-45fa-b8f0-00088836f8e7")
-		(property "Reference" "#PWR0121"
-			(at 602.107 174.244 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 601.98 172.974 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 602.107 170.434 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 602.107 170.434 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 602.107 169.164 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fcf4c7ff-57d3-49ec-ac08-feb4714442f5")
-		)
-		(instances
-			(project "PLC Arduino"
-				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80"
-					(reference "#PWR0121")
 					(unit 1)
 				)
 			)
@@ -24657,72 +21848,6 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 586.232 206.248 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2eac911c-4e8f-4826-94ec-9e46d66dffda")
-		(property "Reference" "#PWR0131"
-			(at 586.232 211.328 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 586.105 210.058 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 586.232 207.518 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 586.232 207.518 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 586.232 206.248 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7b369119-2fb3-45d8-8953-41ff312e61a2")
-		)
-		(instances
-			(project "PLC Arduino"
-				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80"
-					(reference "#PWR0131")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDPWR")
 		(at 351.79 140.462 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -24848,152 +21973,6 @@
 			(project "PLC Arduino"
 				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80"
 					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Linear:AMS1117-3.3")
-		(at 645.287 156.464 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "31f361cc-4781-4479-bbc1-03132ea85ed6")
-		(property "Reference" "U29"
-			(at 645.287 150.749 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AMS1117-3.3"
-			(at 645.287 153.289 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 645.287 151.384 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
-			(at 647.827 162.814 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 645.287 156.464 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5199435"
-			(at 645.287 156.464 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9d503fdf-63c5-4500-8fbf-797257b76d1a")
-		)
-		(pin "2"
-			(uuid "5a88f555-5600-47d9-a2e5-e59fc92e4241")
-		)
-		(pin "3"
-			(uuid "7ee75feb-f8a3-44fc-b072-d0d3c27ba32a")
-		)
-		(instances
-			(project "PLC Arduino"
-				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80"
-					(reference "U29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDPWR")
-		(at 570.357 166.624 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "330f8791-8756-49fa-a037-ccca4e4b11b6")
-		(property "Reference" "#PWR0119"
-			(at 570.357 171.704 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 570.23 170.434 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 570.357 167.894 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 570.357 167.894 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 570.357 166.624 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "48dadc33-c518-42e1-9715-03b32c8e9e5c")
-		)
-		(instances
-			(project "PLC Arduino"
-				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80"
-					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
@@ -25144,72 +22123,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
-		(at 244.856 360.934 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3553c9d2-a1df-4e35-b2ae-962512769884")
-		(property "Reference" "#PWR0117"
-			(at 244.856 367.284 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDD"
-			(at 244.856 365.252 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 244.856 360.934 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 244.856 360.934 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 244.856 360.934 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0d440546-366f-454a-a0b7-5857cc481b7b")
-		)
-		(instances
-			(project "PLC Arduino"
-				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80"
-					(reference "#PWR0117")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Isolator:PC817")
 		(at 452.374 228.854 0)
 		(unit 1)
@@ -25347,84 +22260,6 @@
 			(project "PLC Arduino"
 				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80"
 					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 628.777 201.168 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "370b15e7-0c72-4949-92c4-f4053359d3d3")
-		(property "Reference" "R68"
-			(at 624.967 199.898 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1K"
-			(at 624.967 202.438 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 626.999 201.168 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 628.777 201.168 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 628.777 201.168 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C21190"
-			(at 628.777 201.168 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e6d987a2-baba-4e9a-8d08-96ce1e445510")
-		)
-		(pin "2"
-			(uuid "84c772ea-eaa0-4ebc-b1b9-449b82634f4c")
-		)
-		(instances
-			(project "PLC Arduino"
-				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80"
-					(reference "R68")
 					(unit 1)
 				)
 			)
@@ -25750,103 +22585,6 @@
 			(project "PLC Arduino"
 				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80"
 					(reference "R28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4001")
-		(at 603.377 204.978 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3b1798c9-30ec-4e21-8293-c231ccc34a3f")
-		(property "Reference" "D17"
-			(at 605.917 203.7079 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SS54"
-			(at 605.917 206.2479 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 603.377 204.978 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 603.377 204.978 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
-			(at 603.377 204.978 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 603.377 204.978 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 603.377 204.978 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C22452"
-			(at 603.377 204.978 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "fd093688-857b-4138-87f6-f603306b4e51")
-		)
-		(pin "1"
-			(uuid "78be4451-8bfa-4d09-952e-de81083547d3")
-		)
-		(instances
-			(project "PLC Arduino"
-				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80"
-					(reference "D17")
 					(unit 1)
 				)
 			)
@@ -26566,84 +23304,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 635.127 161.544 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "3f6e25e0-2680-4327-845c-ee62e1b54388")
-		(property "Reference" "C26"
-			(at 636.397 159.004 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22uF"
-			(at 636.397 164.719 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 636.0922 165.354 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 635.127 161.544 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 635.127 161.544 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" " C59461"
-			(at 635.127 161.544 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "362693a9-4c99-4891-8bd7-1169529f04f6")
-		)
-		(pin "2"
-			(uuid "f0fb7ae7-42d5-42c6-91f4-89b00586e116")
-		)
-		(instances
-			(project "PLC Arduino"
-				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80"
-					(reference "C26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 224.536 182.88 0)
 		(unit 1)
@@ -26788,85 +23448,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Switching:LM2596S-12")
-		(at 586.232 198.628 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4238cf71-d1a5-495e-a756-e55b4ba9fd92")
-		(property "Reference" "U32"
-			(at 586.232 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM2596S-12"
-			(at 586.232 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-263-5_TabPin3"
-			(at 587.502 204.978 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2596.pdf"
-			(at 586.232 198.628 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "12V 3A Step-Down Voltage Regulator, TO-263"
-			(at 586.232 198.628 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "12efb9f6-ff70-47cf-831b-f6af682fd90b")
-		)
-		(pin "2"
-			(uuid "d6127b6c-906b-4cf1-a3f8-36b034776ea4")
-		)
-		(pin "1"
-			(uuid "2b55a00a-933d-49e6-a786-984f0da66b80")
-		)
-		(pin "4"
-			(uuid "295fc641-3052-44fb-b576-9a378b533366")
-		)
-		(pin "3"
-			(uuid "d2b99d55-fee3-4f7c-9f52-ee47a52b6a7b")
-		)
-		(instances
-			(project ""
-				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80"
-					(reference "U32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDPWR")
 		(at 63.754 352.552 0)
 		(unit 1)
@@ -26994,84 +23575,6 @@
 			(project "PLC Arduino"
 				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80"
 					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 616.077 165.354 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "434855c2-6a52-4f8e-b01d-deedecd84215")
-		(property "Reference" "C24"
-			(at 609.727 162.814 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220uF"
-			(at 613.537 172.339 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_Elec_6.3x7.7"
-			(at 617.0422 169.164 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 616.077 165.354 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 616.077 165.354 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C4747974"
-			(at 616.077 165.354 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8d6d83e0-722c-4cfd-a320-9b169dc46867")
-		)
-		(pin "2"
-			(uuid "5da47f10-eb36-4a46-af33-6353805dc5cb")
-		)
-		(instances
-			(project "PLC Arduino"
-				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80"
-					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -27303,84 +23806,6 @@
 			(project "PLC Arduino"
 				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80"
 					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 252.222 346.202 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4807730e-d160-4a0f-ab5a-e7bff9a54c89")
-		(property "Reference" "C21"
-			(at 247.777 344.297 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 247.142 348.742 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 253.1872 350.012 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 252.222 346.202 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 252.222 346.202 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C15850"
-			(at 252.222 346.202 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cb6e5349-c2f3-4507-b73a-350273b6ce51")
-		)
-		(pin "2"
-			(uuid "f0d6bdd8-e9bf-43aa-953e-a0bc369a7373")
-		)
-		(instances
-			(project "PLC Arduino"
-				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80"
-					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -27709,72 +24134,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+24V")
-		(at 562.864 192.786 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4c8feaa7-7ff9-4c23-8a45-82fdadca0782")
-		(property "Reference" "#PWR0128"
-			(at 562.864 196.596 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+24V"
-			(at 562.864 187.452 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 562.864 192.786 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 562.864 192.786 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 562.864 192.786 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "934cceb9-ca15-4268-a02d-1c287360a5d7")
-		)
-		(instances
-			(project "PLC Arduino"
-				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80"
-					(reference "#PWR0128")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Potentiometer_US")
 		(at 66.294 357.886 0)
 		(unit 1)
@@ -27842,72 +24201,6 @@
 			(project ""
 				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80"
 					(reference "RV1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDPWR")
-		(at 561.467 166.624 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4ed80eb8-a4ca-4e04-90e0-b401b6221fa6")
-		(property "Reference" "#PWR0129"
-			(at 561.467 171.704 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 561.34 170.434 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 561.467 167.894 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 561.467 167.894 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 561.467 166.624 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5558dec0-e7a7-4a2f-9a4d-1faeb5213afc")
-		)
-		(instances
-			(project "PLC Arduino"
-				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80"
-					(reference "#PWR0129")
 					(unit 1)
 				)
 			)
@@ -28338,72 +24631,6 @@
 			(project "PLC Arduino"
 				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80"
 					(reference "U24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDPWR")
-		(at 616.077 169.164 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "53ac150e-30ba-47e2-a08b-9191763da340")
-		(property "Reference" "#PWR0122"
-			(at 616.077 174.244 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 615.95 172.974 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 616.077 170.434 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 616.077 170.434 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 616.077 169.164 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "512a04f1-3fa3-4b29-9ab6-1339e0b56531")
-		)
-		(instances
-			(project "PLC Arduino"
-				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80"
-					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
@@ -29046,85 +25273,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 627.507 170.434 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5bd2723e-2269-4a0b-8e25-104411403388")
-		(property "Reference" "D16"
-			(at 623.697 170.434 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 630.682 173.2914 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 627.507 170.434 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 627.507 170.434 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 627.507 170.434 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2296"
-			(at 627.507 170.434 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fe2b91c4-dbdf-4a0b-94c4-420c5f2b7d3a")
-		)
-		(pin "2"
-			(uuid "028b1170-edda-46df-84e7-1082beea1db5")
-		)
-		(instances
-			(project "PLC Arduino"
-				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80"
-					(reference "D16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 600.837 372.364 180)
 		(unit 1)
@@ -29735,72 +25883,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3VA")
-		(at 655.447 155.194 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6404e48c-57bb-4455-ab2f-eb1ecf1bb4dd")
-		(property "Reference" "#PWR0126"
-			(at 655.447 159.004 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3VA"
-			(at 655.447 150.114 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 655.447 155.194 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 655.447 155.194 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 655.447 155.194 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "92e3a5e5-4aa4-4b8d-a206-14966a01181f")
-		)
-		(instances
-			(project "PLC Arduino"
-				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80"
-					(reference "#PWR0126")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDD")
 		(at 697.738 335.788 180)
 		(unit 1)
@@ -30023,143 +26105,6 @@
 			(project ""
 				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80"
 					(reference "U17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Socket")
-		(at 603.377 189.103 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "664e47d1-fa06-42d7-b68e-cc4965c72cae")
-		(property "Reference" "J10"
-			(at 607.187 189.7379 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_01x02_Socket"
-			(at 605.9169 187.198 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 603.377 189.103 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 603.377 189.103 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 603.377 189.103 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ac028a0c-4c76-4f4d-b622-f4d3a19d7e31")
-		)
-		(pin "1"
-			(uuid "769fb8e8-2923-47be-b9d5-847c50c791c2")
-		)
-		(instances
-			(project "PLC Arduino"
-				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80"
-					(reference "J10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDPWR")
-		(at 645.287 174.244 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "671973f9-86d8-4ef8-b891-e357a963f6b5")
-		(property "Reference" "#PWR0125"
-			(at 645.287 179.324 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 645.16 178.054 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 645.287 175.514 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 645.287 175.514 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 645.287 174.244 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "090f4668-9e54-4c25-ab3a-ac08896ac8a2")
-		)
-		(instances
-			(project "PLC Arduino"
-				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80"
-					(reference "#PWR0125")
 					(unit 1)
 				)
 			)
@@ -30727,150 +26672,6 @@
 			(project ""
 				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80"
 					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 621.157 165.354 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6fa3122a-a58e-4658-bc50-ce2878e28a08")
-		(property "Reference" "C25"
-			(at 616.077 162.814 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1000uF"
-			(at 619.887 174.244 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_Elec_10x10.2"
-			(at 622.1222 169.164 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 621.157 165.354 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 621.157 165.354 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" " C189257"
-			(at 621.157 165.354 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "db2ab5f5-c2b2-4ca1-b25b-3a1e8071a156")
-		)
-		(pin "2"
-			(uuid "154e983c-bb91-4fb3-921f-dba792cf4232")
-		)
-		(instances
-			(project "PLC Arduino"
-				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80"
-					(reference "C25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDPWR")
-		(at 562.737 206.248 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6ffdea25-fc46-4fc3-95ce-39f7a2d4f1ed")
-		(property "Reference" "#PWR0127"
-			(at 562.737 211.328 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 562.61 210.058 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 562.737 207.518 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 562.737 207.518 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 562.737 206.248 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "392d9c62-d83c-45b7-babb-e1dd820ac0fc")
-		)
-		(instances
-			(project "PLC Arduino"
-				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80"
-					(reference "#PWR0127")
 					(unit 1)
 				)
 			)
@@ -31494,72 +27295,6 @@
 			(project "PLC Arduino"
 				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80"
 					(reference "#PWR065")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDPWR")
-		(at 584.327 166.624 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "74e3e801-cc3d-4625-bc60-cca2b20ff18e")
-		(property "Reference" "#PWR0120"
-			(at 584.327 171.704 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 584.2 170.434 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 584.327 167.894 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 584.327 167.894 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 584.327 166.624 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8e9984c3-e4c7-4123-b0df-21571bd06da6")
-		)
-		(instances
-			(project "PLC Arduino"
-				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80"
-					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
@@ -33297,72 +29032,6 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 571.627 206.248 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "85dd8a60-c846-4338-8676-5133f6488f71")
-		(property "Reference" "#PWR0130"
-			(at 571.627 211.328 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 571.5 210.058 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 571.627 207.518 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 571.627 207.518 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 571.627 206.248 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "26d01149-c934-4f31-87a4-9688fd0bd31d")
-		)
-		(instances
-			(project "PLC Arduino"
-				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80"
-					(reference "#PWR0130")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDPWR")
 		(at 236.982 104.394 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -33939,72 +29608,6 @@
 			(project "PLC Arduino"
 				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80"
 					(reference "U26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12VA")
-		(at 622.4762 192.7662 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8c0de984-3b50-49f8-9851-6da67af049c1")
-		(property "Reference" "#PWR0134"
-			(at 622.4762 196.5762 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12VA"
-			(at 622.4762 187.6862 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 622.4762 192.7662 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 622.4762 192.7662 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12VA\""
-			(at 622.4762 192.7662 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "da324da4-c857-4310-8548-96ccc39827f8")
-		)
-		(instances
-			(project "PLC Arduino"
-				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80"
-					(reference "#PWR0134")
 					(unit 1)
 				)
 			)
@@ -35247,84 +30850,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 627.507 161.544 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9e79837b-e882-445e-b2ae-438cd8f6782e")
-		(property "Reference" "R67"
-			(at 623.697 160.274 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1K"
-			(at 623.697 162.814 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 625.729 161.544 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 627.507 161.544 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 627.507 161.544 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C21190"
-			(at 627.507 161.544 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6e832d1a-6077-4f1d-b85e-286c37a6569a")
-		)
-		(pin "2"
-			(uuid "df6b44d6-41c6-4626-b764-e388221e73d9")
-		)
-		(instances
-			(project "PLC Arduino"
-				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80"
-					(reference "R67")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 600.837 352.044 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -35787,84 +31312,6 @@
 			(project "PLC Arduino"
 				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80"
 					(reference "R53")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 622.427 204.978 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a62ccc7a-0303-4d4d-a4f1-99cd5865441a")
-		(property "Reference" "C30"
-			(at 617.347 202.438 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1000uF"
-			(at 621.157 213.868 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_Elec_10x10.2"
-			(at 623.3922 208.788 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 622.427 204.978 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 622.427 204.978 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" " C189257"
-			(at 622.427 204.978 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b7071ba7-c207-441b-804e-7b0c347d3a75")
-		)
-		(pin "2"
-			(uuid "4e52f00f-ce38-4d30-8b9e-8df4363a11d1")
-		)
-		(instances
-			(project "PLC Arduino"
-				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80"
-					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -36478,151 +31925,6 @@
 			(project ""
 				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80"
 					(reference "U18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDPWR")
-		(at 628.777 217.043 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "af2436ce-a812-4973-8ae2-23e5d2206675")
-		(property "Reference" "#PWR0135"
-			(at 628.777 222.123 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 628.65 220.853 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 628.777 218.313 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 628.777 218.313 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 628.777 217.043 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2fdbbb26-3b16-4003-820d-4da8d80b13e1")
-		)
-		(instances
-			(project "PLC Arduino"
-				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80"
-					(reference "#PWR0135")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 561.467 160.274 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "af618bd2-60b8-49c2-ab5f-5ee067fc1edb")
-		(property "Reference" "C23"
-			(at 562.737 157.734 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100uF"
-			(at 562.737 163.449 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_Elec_10x10.2"
-			(at 562.4322 164.084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 561.467 160.274 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 561.467 160.274 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" " C28241"
-			(at 561.467 160.274 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "97442da6-ddd0-4875-ae2d-81f74e6443fb")
-		)
-		(pin "2"
-			(uuid "4c62723a-7f13-4721-8235-557cdea0c29b")
-		)
-		(instances
-			(project "PLC Arduino"
-				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80"
-					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -37263,77 +32565,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Socket")
-		(at 602.107 149.479 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b3afb96d-6a2c-4b20-b1ea-e8f41d7a5494")
-		(property "Reference" "J8"
-			(at 605.917 150.1139 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_01x02_Socket"
-			(at 604.6469 147.574 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 602.107 149.479 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 602.107 149.479 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 602.107 149.479 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ccfe320a-dadc-44e2-8956-d83fa5d9f64f")
-		)
-		(pin "1"
-			(uuid "f1b6eb75-625a-43db-9fa7-86e2c0382f87")
-		)
-		(instances
-			(project "PLC Arduino"
-				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80"
-					(reference "J8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 464.058 220.472 180)
 		(unit 1)
@@ -37845,138 +33076,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDPWR")
-		(at 617.347 208.788 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "be83183a-d173-47c5-83ff-476089bc9a77")
-		(property "Reference" "#PWR0133"
-			(at 617.347 213.868 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 617.22 212.598 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 617.347 210.058 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 617.347 210.058 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 617.347 208.788 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9726fd51-0f06-4261-aa30-8c5939e25d71")
-		)
-		(instances
-			(project "PLC Arduino"
-				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80"
-					(reference "#PWR0133")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+24V")
-		(at 561.594 153.162 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bed9990f-57e0-4b61-928a-d2cd58553345")
-		(property "Reference" "#PWR0123"
-			(at 561.594 156.972 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+24V"
-			(at 561.594 147.828 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 561.594 153.162 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 561.594 153.162 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 561.594 153.162 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "232e07d5-5e3f-4f98-adfa-c0664e965602")
-		)
-		(instances
-			(project "PLC Arduino"
-				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80"
-					(reference "#PWR0123")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 227.838 209.804 0)
 		(unit 1)
@@ -38041,83 +33140,6 @@
 			(project "PLC Arduino"
 				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80"
 					(reference "R21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L")
-		(at 608.457 161.544 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c04e66a8-7861-4e74-9c01-34cc5635587e")
-		(property "Reference" "L1"
-			(at 608.457 156.464 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33uH"
-			(at 608.457 159.004 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_Chilisin_BMRF00101040"
-			(at 608.457 161.544 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 608.457 161.544 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 608.457 161.544 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C408490"
-			(at 608.457 161.544 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d77a7246-287d-4eb5-a415-64e5db56c1d9")
-		)
-		(pin "2"
-			(uuid "96841e6f-7d23-4ad6-888f-bc06c97b1a15")
-		)
-		(instances
-			(project "PLC Arduino"
-				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80"
-					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -38693,83 +33715,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 609.727 201.168 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c6fdbcb9-d0d4-4746-bb3a-1e0c9240ce99")
-		(property "Reference" "L2"
-			(at 609.727 196.088 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33uH"
-			(at 609.727 198.628 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_Chilisin_BMRF00101040"
-			(at 609.727 201.168 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 609.727 201.168 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 609.727 201.168 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C408490"
-			(at 609.727 201.168 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ffef300e-583c-4641-bb37-396fc2fa11d1")
-		)
-		(pin "2"
-			(uuid "f5401875-664e-4f33-918b-f179d687aac8")
-		)
-		(instances
-			(project "PLC Arduino"
-				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80"
-					(reference "L2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5VA")
 		(at 162.306 358.902 270)
 		(mirror x)
@@ -38830,84 +33775,6 @@
 			(project "PLC Arduino"
 				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80"
 					(reference "#PWR072")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 257.302 346.202 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c8e0d868-4dcc-4f3d-8691-f849a1e9949f")
-		(property "Reference" "C22"
-			(at 260.477 343.662 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 263.017 348.742 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 256.3368 342.392 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 257.302 346.202 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 257.302 346.202 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" " C60474"
-			(at 257.302 346.202 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8eb81aa7-d29a-4304-b203-87f7a5c3ba93")
-		)
-		(pin "2"
-			(uuid "03f8e9a4-b8d5-4cb9-8ee2-374f2341f6f0")
-		)
-		(instances
-			(project "PLC Arduino"
-				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80"
-					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -39615,84 +34482,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 655.447 161.544 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "d1fcb9a1-d143-4936-b595-767c613de8cb")
-		(property "Reference" "C27"
-			(at 656.717 159.004 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22uF"
-			(at 656.717 164.719 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 656.4122 165.354 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 655.447 161.544 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 655.447 161.544 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" " C59461"
-			(at 655.447 161.544 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "22f4a74a-ae78-4b80-b32f-9942059b5a82")
-		)
-		(pin "2"
-			(uuid "673d1316-fcdb-4810-935f-5469a0f36689")
-		)
-		(instances
-			(project "PLC Arduino"
-				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80"
-					(reference "C27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Isolator:PC817")
 		(at 358.902 234.696 0)
 		(unit 1)
@@ -40119,156 +34908,6 @@
 			(project "PLC Arduino"
 				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80"
 					(reference "#PWR084")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Socket")
-		(at 637.032 169.799 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d6721a33-80be-44fb-a775-f107a8fc8e59")
-		(property "Reference" "J9"
-			(at 638.937 169.7989 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02_Socket"
-			(at 638.937 172.3389 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
-			(at 637.032 169.799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 637.032 169.799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 637.032 169.799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "fb0859bf-4c63-4288-886d-bc352276f8ab")
-		)
-		(pin "1"
-			(uuid "3ba74152-8f04-4b64-b096-7d4327e3844f")
-		)
-		(instances
-			(project "PLC Arduino"
-				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80"
-					(reference "J9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 628.777 210.058 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d7365b2a-2dae-47af-beb5-ab2857f6f033")
-		(property "Reference" "D18"
-			(at 624.967 210.058 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 631.952 212.9154 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 628.777 210.058 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 628.777 210.058 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 628.777 210.058 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2296"
-			(at 628.777 210.058 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "174d3e1c-8151-41b1-ad4b-8131c960845b")
-		)
-		(pin "2"
-			(uuid "17772687-3f11-476a-aa80-8bcde89c74a9")
-		)
-		(instances
-			(project "PLC Arduino"
-				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80"
-					(reference "D18")
 					(unit 1)
 				)
 			)
@@ -41035,72 +35674,6 @@
 			(project "PLC Arduino"
 				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80"
 					(reference "R39")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDPWR")
-		(at 603.377 208.788 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dea39c97-19b9-421c-94e6-9d0623ef6d4a")
-		(property "Reference" "#PWR0132"
-			(at 603.377 213.868 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 603.25 212.598 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 603.377 210.058 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 603.377 210.058 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 603.377 208.788 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1772eaaf-2804-44b0-804d-94d7f612ba09")
-		)
-		(instances
-			(project "PLC Arduino"
-				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80"
-					(reference "#PWR0132")
 					(unit 1)
 				)
 			)
@@ -42017,73 +36590,6 @@
 			(project "PLC Arduino"
 				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80"
 					(reference "R50")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDPWR")
-		(at 254.762 341.376 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ea8949ea-e115-43e0-8d52-982f18531a4d")
-		(property "Reference" "#PWR0116"
-			(at 254.762 336.296 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 254.889 337.566 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 254.762 340.106 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 254.762 340.106 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 254.762 341.376 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d84c69f1-81dd-4755-87d0-c7b127a73d32")
-		)
-		(instances
-			(project "PLC Arduino"
-				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80"
-					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
