@@ -18810,6 +18810,28 @@
 			)
 		)
 	)
+	(global_label "DIN_3"
+		(shape input)
+		(at 760.73 457.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "0600bdf9-da11-4b0e-8335-cde255dceb52")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 767.3184 457.2 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SLAVE_EN"
 		(shape input)
 		(at 569.722 359.029 180)
@@ -19382,6 +19404,28 @@
 			)
 		)
 	)
+	(global_label "DC_IN_4"
+		(shape input)
+		(at 760.73 449.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "40e27397-7d27-4642-9ba9-fbbffbc90838")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 769.0803 449.58 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VCOUPLER"
 		(shape input)
 		(at 211.074 254 0)
@@ -19492,6 +19536,28 @@
 			)
 		)
 	)
+	(global_label "DIN_2"
+		(shape input)
+		(at 760.73 454.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "4937155e-facb-4493-acc5-5620e0105fa3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 767.3184 454.66 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "V_DC_IN"
 		(shape input)
 		(at 349.504 116.5301 90)
@@ -19530,6 +19596,28 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DC_IN_2"
+		(shape input)
+		(at 760.73 444.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "4a115ef4-e0b7-4966-9a8d-6a3a77459ef6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 769.0803 444.5 0)
+			(effects
+				(font
+					(size 1 1)
 				)
 				(justify left)
 				(hide yes)
@@ -19778,6 +19866,28 @@
 			)
 		)
 	)
+	(global_label "DIN_1"
+		(shape input)
+		(at 760.73 452.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "579f87cb-1021-4e4d-8d32-d15a40316645")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 767.3184 452.12 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "DOUT_DRV_2"
 		(shape input)
 		(at 58.42 143.256 180)
@@ -19862,6 +19972,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DC_IN_1"
+		(shape input)
+		(at 760.73 441.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "64ca8b86-8c13-4a62-916a-79bc12d9ff75")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 769.0803 441.96 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -20410,6 +20542,28 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DIN_4"
+		(shape input)
+		(at 760.73 459.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "8523be54-05b0-429b-9996-f6cdfdc91077")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 767.3184 459.74 0)
+			(effects
+				(font
+					(size 1 1)
 				)
 				(justify left)
 				(hide yes)
@@ -21752,6 +21906,28 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DC_IN_3"
+		(shape input)
+		(at 760.73 447.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "d6f964df-9de6-438b-a673-b33424d7e3bd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 769.0803 447.04 0)
+			(effects
+				(font
+					(size 1 1)
 				)
 				(justify left)
 				(hide yes)
