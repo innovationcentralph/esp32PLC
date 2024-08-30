@@ -9615,6 +9615,12 @@
 		(uuid "90b8632b-e709-4e93-a7bc-fe7fe41b1f62")
 	)
 	(junction
+		(at 750.57 436.118)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91068005-c11e-4cfe-8a4e-c12e98065786")
+	)
+	(junction
 		(at 228.346 147.828)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9729,10 +9735,22 @@
 		(uuid "b6bb0504-e7e7-45a6-8e5d-13522abb68c8")
 	)
 	(junction
+		(at 742.696 435.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b78cbacd-043b-49c3-8762-53afae37fb92")
+	)
+	(junction
 		(at 370.586 232.156)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b8f3522c-108d-43ce-9725-17f255a87991")
+	)
+	(junction
+		(at 742.569 427.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b99915ec-cf80-4134-ae3f-57be351983b2")
 	)
 	(junction
 		(at 344.551 337.439)
@@ -10502,7 +10520,7 @@
 	)
 	(wire
 		(pts
-			(xy 750.57 434.34) (xy 750.57 436.88)
+			(xy 750.57 434.34) (xy 750.57 436.118)
 		)
 		(stroke
 			(width 0)
@@ -11042,6 +11060,16 @@
 	)
 	(wire
 		(pts
+			(xy 742.696 435.61) (xy 745.744 435.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20f877cd-4024-48cf-a2a8-805546e005ff")
+	)
+	(wire
+		(pts
 			(xy 648.97 462.28) (xy 654.05 462.28)
 		)
 		(stroke
@@ -11392,6 +11420,16 @@
 	)
 	(wire
 		(pts
+			(xy 742.569 426.085) (xy 742.569 427.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ce14fa5-98d9-44dd-999b-a225c796fc42")
+	)
+	(wire
+		(pts
 			(xy 590.677 342.519) (xy 590.677 343.789)
 		)
 		(stroke
@@ -11479,6 +11517,16 @@
 			(type default)
 		)
 		(uuid "2fc3a89a-691e-4440-b277-3ce978ceb003")
+	)
+	(wire
+		(pts
+			(xy 742.696 436.118) (xy 750.57 436.118)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "300d21f2-4b28-4e7d-abaf-8932731172ef")
 	)
 	(wire
 		(pts
@@ -12932,6 +12980,16 @@
 	)
 	(wire
 		(pts
+			(xy 739.394 435.61) (xy 742.696 435.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60341809-dba7-4807-8530-e71da09ca6a6")
+	)
+	(wire
+		(pts
 			(xy 236.728 264.16) (xy 236.728 268.478)
 		)
 		(stroke
@@ -13902,6 +13960,16 @@
 	)
 	(wire
 		(pts
+			(xy 742.569 427.99) (xy 745.744 427.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "800a91ea-d219-412b-9608-27c4626526b4")
+	)
+	(wire
+		(pts
 			(xy 57.15 356.87) (xy 57.15 367.03)
 		)
 		(stroke
@@ -14729,6 +14797,16 @@
 			(type default)
 		)
 		(uuid "9b856c3a-84b0-4987-a96a-fc07db79ec54")
+	)
+	(wire
+		(pts
+			(xy 742.696 435.61) (xy 742.696 436.118)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bc3714d-174c-4557-a8f7-a5f1d44adb45")
 	)
 	(wire
 		(pts
@@ -16762,6 +16840,16 @@
 	)
 	(wire
 		(pts
+			(xy 750.57 436.118) (xy 750.57 436.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dee33dd9-9264-41d4-880f-028d49043f57")
+	)
+	(wire
+		(pts
 			(xy 225.044 120.65) (xy 237.998 120.65)
 		)
 		(stroke
@@ -17599,6 +17687,16 @@
 			(type default)
 		)
 		(uuid "f740e435-899d-4476-acbd-f6d18774b1a4")
+	)
+	(wire
+		(pts
+			(xy 739.394 427.99) (xy 742.569 427.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7568910-c2ff-4a3f-b9f5-d79686b31285")
 	)
 	(wire
 		(pts
@@ -27008,6 +27106,93 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 745.744 431.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2c2aa212-f523-4fef-8c82-cdee49585527")
+		(property "Reference" "C4"
+			(at 747.014 435.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 747.014 430.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 746.7092 435.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 745.744 431.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 745.744 431.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" " C60474"
+			(at 745.744 431.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 745.744 431.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "18fa6151-4182-4755-bc46-06338411d361")
+		)
+		(pin "2"
+			(uuid "9ebce67b-3e49-413f-b9f0-e950b0e27b71")
+		)
+		(instances
+			(project "PLC Arduino"
+				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 347.091 351.409 90)
 		(unit 1)
@@ -29360,7 +29545,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical"
 			(at 651.51 170.815 0)
 			(effects
 				(font
@@ -32915,6 +33100,72 @@
 			(project "PLC Arduino"
 				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 742.569 426.085 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69e5dc11-0194-41b7-a7d4-f5adf1a4d5f6")
+		(property "Reference" "#PWR076"
+			(at 742.569 419.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 742.569 421.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 742.569 426.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 742.569 426.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 742.569 426.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e866e4e3-9229-40ad-b282-745090de5f7e")
+		)
+		(instances
+			(project "PLC Arduino"
+				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80"
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -45234,6 +45485,93 @@
 			(project ""
 				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80"
 					(reference "U34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 739.394 431.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d8c6be80-3c58-4aae-9f25-8d73fa3f09ad")
+		(property "Reference" "C3"
+			(at 734.949 429.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 734.314 434.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 740.3592 435.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 739.394 431.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 739.394 431.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15850"
+			(at 739.394 431.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 739.394 431.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "46a7ea26-58db-4b6a-8e42-726feba4bba9")
+		)
+		(pin "2"
+			(uuid "6df2ab67-2f1e-4529-9360-6d7b68e967cc")
+		)
+		(instances
+			(project "PLC Arduino"
+				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80"
+					(reference "C3")
 					(unit 1)
 				)
 			)
