@@ -216,7 +216,11 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "power_pin_not_driven|2374900|1765300|ab9c9bc3-8063-4a5a-8b28-b232b2656a40|00000000-0000-0000-0000-000000000000|/ce68e045-3b24-4b1f-b4c3-20bce3f1de80|/ce68e045-3b24-4b1f-b4c3-20bce3f1de80|",
+      "power_pin_not_driven|3299460|3507740|f6909ebd-21de-4eb1-9614-801cf5743813|00000000-0000-0000-0000-000000000000|/ce68e045-3b24-4b1f-b4c3-20bce3f1de80|/ce68e045-3b24-4b1f-b4c3-20bce3f1de80|",
+      "power_pin_not_driven|7302500|1638300|005a0058-ef16-4838-9d9b-2b34f880ddc8|00000000-0000-0000-0000-000000000000|/ce68e045-3b24-4b1f-b4c3-20bce3f1de80|/ce68e045-3b24-4b1f-b4c3-20bce3f1de80|"
+    ],
     "meta": {
       "version": 0
     },
@@ -400,12 +404,12 @@
       "different_unit_net": "error",
       "duplicate_reference": "error",
       "duplicate_sheet_names": "error",
-      "endpoint_off_grid": "warning",
+      "endpoint_off_grid": "ignore",
       "extra_units": "error",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
-      "lib_symbol_issues": "warning",
+      "lib_symbol_issues": "ignore",
       "missing_bidi_pin": "warning",
       "missing_input_pin": "warning",
       "missing_power_pin": "error",
@@ -416,7 +420,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "ignore",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -508,7 +512,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -523,15 +527,57 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field6",
+          "name": "Field6",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field7",
+          "name": "Field7",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
