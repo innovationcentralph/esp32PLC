@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 1.52,
+          "height": 2.5,
+          "width": 2.5
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -51,7 +51,13 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -110,10 +116,10 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.1,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
-        "min_hole_clearance": 0.25,
+        "min_hole_clearance": 0.3,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
@@ -121,10 +127,10 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.0,
+        "min_through_hole_diameter": 0.2,
+        "min_track_width": 0.1,
         "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
+        "min_via_diameter": 0.3,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -171,7 +177,18 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.25,
+        0.3,
+        0.4,
+        0.5,
+        0.6,
+        0.7,
+        1.0,
+        1.5,
+        2.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -198,7 +215,20 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 1.0,
+          "drill": 0.5
+        },
+        {
+          "diameter": 2.0,
+          "drill": 1.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -217,6 +247,7 @@
   },
   "erc": {
     "erc_exclusions": [
+      "power_pin_not_driven|1102360|706120|a2b66edd-8a45-4476-bb7c-7fcd18a5a37f|00000000-0000-0000-0000-000000000000|/ce68e045-3b24-4b1f-b4c3-20bce3f1de80|/ce68e045-3b24-4b1f-b4c3-20bce3f1de80|",
       "power_pin_not_driven|2374900|1765300|ab9c9bc3-8063-4a5a-8b28-b232b2656a40|00000000-0000-0000-0000-000000000000|/ce68e045-3b24-4b1f-b4c3-20bce3f1de80|/ce68e045-3b24-4b1f-b4c3-20bce3f1de80|",
       "power_pin_not_driven|3299460|3507740|f6909ebd-21de-4eb1-9614-801cf5743813|00000000-0000-0000-0000-000000000000|/ce68e045-3b24-4b1f-b4c3-20bce3f1de80|/ce68e045-3b24-4b1f-b4c3-20bce3f1de80|",
       "power_pin_not_driven|7277100|1600200|6613cfe0-33f4-4d2d-82a2-5beb8ee1e354|00000000-0000-0000-0000-000000000000|/ce68e045-3b24-4b1f-b4c3-20bce3f1de80|/ce68e045-3b24-4b1f-b4c3-20bce3f1de80|",
