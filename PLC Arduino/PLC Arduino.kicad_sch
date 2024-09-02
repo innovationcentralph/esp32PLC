@@ -10850,6 +10850,14 @@
 		(uuid "6683ceef-c504-4af1-9edb-8e6d7e099f74")
 	)
 	(no_connect
+		(at 614.553 82.804)
+		(uuid "66ef3df3-5856-4ac6-8985-b2690981465c")
+	)
+	(no_connect
+		(at 614.553 77.724)
+		(uuid "6cf6097c-d52c-4930-ada5-6a53c9c1b9d5")
+	)
+	(no_connect
 		(at 478.79 411.48)
 		(uuid "767e4e36-ebb6-4f52-85ed-4af321d54d83")
 	)
@@ -10870,12 +10878,12 @@
 		(uuid "97583f4a-0cde-4ea8-9ba4-9e68e4c475bc")
 	)
 	(no_connect
-		(at 575.818 77.216)
-		(uuid "99e4b1f7-dab3-4d45-bc01-f730b58e0a65")
-	)
-	(no_connect
 		(at 614.553 85.344)
 		(uuid "9be727e3-60e9-453a-9251-9d0f7fac12d2")
+	)
+	(no_connect
+		(at 614.553 80.264)
+		(uuid "9bf6843b-40a1-4b1f-af3d-25044a22894a")
 	)
 	(no_connect
 		(at 257.302 180.34)
@@ -10932,10 +10940,6 @@
 	(no_connect
 		(at 478.79 403.86)
 		(uuid "d3cdb844-61a2-446a-bc81-44d770453e96")
-	)
-	(no_connect
-		(at 575.818 79.756)
-		(uuid "e3bd2bd4-d873-4a34-9ba3-34ab9d985f06")
 	)
 	(no_connect
 		(at 368.173 454.66)
@@ -12839,16 +12843,6 @@
 	)
 	(wire
 		(pts
-			(xy 614.553 77.724) (xy 621.792 77.724)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d1eaf0a-603c-4026-8e5b-a0c5bd0c5cb9")
-	)
-	(wire
-		(pts
 			(xy 349.504 183.134) (xy 351.536 183.134)
 		)
 		(stroke
@@ -13206,16 +13200,6 @@
 			(type default)
 		)
 		(uuid "496780fb-2aba-46bc-acd1-c548a7598966")
-	)
-	(wire
-		(pts
-			(xy 614.553 82.804) (xy 621.792 82.804)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "496c5901-117f-44ee-9636-aa126816b423")
 	)
 	(wire
 		(pts
@@ -15326,16 +15310,6 @@
 			(type default)
 		)
 		(uuid "8d403e4a-d671-452f-bb67-7145ee9fd10b")
-	)
-	(wire
-		(pts
-			(xy 614.553 80.264) (xy 621.792 80.264)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d53d986-904a-4811-a365-e53b99d1161a")
 	)
 	(wire
 		(pts
@@ -19642,6 +19616,28 @@
 			)
 		)
 	)
+	(global_label "SCL_E"
+		(shape input)
+		(at 575.818 77.216 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1e00ebf8-6564-4f29-847a-6ebd3077c48c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 567.2086 77.216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "DOUT_DRV_4"
 		(shape input)
 		(at 594.36 468.63 0)
@@ -20034,28 +20030,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SCL_E"
-		(shape input)
-		(at 621.792 80.264 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3b6dd846-c63f-40b0-8652-f27ffa56d4f5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 630.4014 80.264 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -22040,6 +22014,28 @@
 			)
 		)
 	)
+	(global_label "SDA_E"
+		(shape input)
+		(at 575.818 79.756 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a278adc1-dbb0-4028-9045-c793fc29903b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 567.1481 79.756 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "DC_IN_4_A"
 		(shape input)
 		(at 575.818 51.816 180)
@@ -23813,28 +23809,6 @@
 		(uuid "f918c02d-aba1-4048-828b-9e90d0fca38b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 442.722 157.9753 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SDA_E"
-		(shape input)
-		(at 621.792 82.804 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f9296dba-45ac-4e42-936f-c0af75ce3985")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 630.4619 82.804 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29831,73 +29805,6 @@
 			(project "PLC Arduino"
 				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80"
 					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDPWR")
-		(at 621.792 77.724 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "30725e44-5d77-4fa6-940e-1efe5e20af02")
-		(property "Reference" "#PWR075"
-			(at 626.872 77.724 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 625.602 77.8509 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 623.062 77.724 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 623.062 77.724 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 621.792 77.724 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7976d5ba-91a4-4833-98de-fdeb6f72edde")
-		)
-		(instances
-			(project "PLC Arduino"
-				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80"
-					(reference "#PWR075")
 					(unit 1)
 				)
 			)
