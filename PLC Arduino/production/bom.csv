@@ -9,6 +9,9 @@ C27,C_Elec_10x10.2,1,1000uF, C189257
 "D11, D13, D14, D16, D5, D8, D9",0805,7,LED,C2297
 D15,D_SMA,1,SS54,C22452
 "J1, J2, J3, J4","TerminalBlock_Phoenix_MKDS-1,5-12-5.08_1x12_P5.08mm_Horizontal",4,Screw_Terminal_01x12,
+"J10, J12",PinHeader_1x03_P2.54mm_Vertical,2,Conn_01x03_Socket,
+"J11, J13",PinHeader_1x05_P2.54mm_Vertical,2,Conn_01x05_Socket,
+"J14, J15",TerminalBlock_bornier-8_P5.08mm,2,Screw_Terminal_01x08,
 J5,USB_Micro-B_Molex-105017-0001,1,USB_B_Micro,C2972784
 J6,JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical,1,Conn_01x04_Socket,
 J7,JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical,1,Conn_01x03_Socket,
