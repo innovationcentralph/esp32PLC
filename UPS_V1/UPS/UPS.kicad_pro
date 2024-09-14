@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 1.35,
-          "width": 0.4
+          "drill": 0.508,
+          "height": 1.016,
+          "width": 1.016
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -58,13 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "lib_footprint_mismatch|117880000|86447700|8f49e67d-9a35-44ad-bfa0-46d55bbf2729|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|117890000|38210000|51556ee2-9e89-49c4-92ce-2e4da4643107|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|138507500|81424999|152811e3-a127-47cc-8596-33ef1f2188c6|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|160401000|38210000|3fde3c14-1550-43d3-898e-fc5ee39ff933|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|160401000|86447700|d65c6257-3cad-4118-9367-4c95287f51da|00000000-0000-0000-0000-000000000000"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -92,7 +86,7 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "missing_courtyard": "ignore",
@@ -131,7 +125,7 @@
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.6,
+        "min_text_height": 0.5,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.0,
@@ -247,9 +241,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      "pin_to_pin|3746500|1755140|6c3b51b5-4693-4c37-9d80-1ffda5b13fc3|8394393e-87d9-4288-a300-c1bb7455d454|/4f670070-ab63-4e02-883d-dde39db130fe|/4f670070-ab63-4e02-883d-dde39db130fe|/4f670070-ab63-4e02-883d-dde39db130fe"
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
