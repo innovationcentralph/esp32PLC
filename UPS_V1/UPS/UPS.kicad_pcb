@@ -1172,6 +1172,29 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${KICAD8_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Bourns_3266Y_Vertical.step"
+			(hide yes)
+			(offset
+				(xyz 5 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Bourns_3296W_Vertical.step"
+			(offset
+				(xyz 5 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
@@ -2281,7 +2304,7 @@
 			(pintype "power_in")
 			(uuid "94d7f9ec-7eed-49a5-8464-d07824d28226")
 		)
-		(model "C:/Users/Aerest/Documents/GitHub/esp32PLC/UPS_V1/3D file/BQ24040DSQR/DSQ0010A.stp"
+		(model "C:/Users/ckabiling/OneDrive - Duke Manufacturing/Documents/Github/UPS/UPS_V1/3D file/BQ24040DSQR/DSQ0010A.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8492,7 +8515,7 @@
 			(pintype "power_in")
 			(uuid "6fe06bfe-ddcc-4bcd-bc9a-3d24e561ebd4")
 		)
-		(model "C:/Users/Aerest/Documents/GitHub/esp32PLC/UPS_V1/3D file/TPS54331DR/D0008A.stp"
+		(model "C:/Users/ckabiling/OneDrive - Duke Manufacturing/Documents/Github/UPS/UPS_V1/3D file/TPS54331DR/D0008A.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10176,7 +10199,7 @@
 				)
 			)
 		)
-		(property "Designation" "USB_BYPASS"
+		(property "Designation" "USB BYPASS"
 			(at 0 1.75 90)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -11419,6 +11442,7 @@
 			(uuid "831458bf-e814-4daa-89c6-b59d46cf2d6c")
 		)
 		(model "C:/Users/Aerest/Documents/GitHub/esp32PLC/UPS_V1/3D file/1_282834_2/c-1-282834-2-c-3d.stp"
+			(hide yes)
 			(offset
 				(xyz 14 3.25 3)
 			)
@@ -11426,7 +11450,29 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 0 -180)
+				(xyz 0 0 -180)
+			)
+		)
+		(model "${KICAD8_3DMODEL_DIR}/TerminalBlock_Phoenix.3dshapes/TerminalBlock_Phoenix_MPT-0,5-6-2.54_1x06_P2.54mm_Horizontal.step"
+			(offset
+				(xyz 12.5 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 180)
+			)
+		)
+		(model "${KICAD8_3DMODEL_DIR}/TerminalBlock_Phoenix.3dshapes/TerminalBlock_Phoenix_MPT-0,5-6-2.54_1x06_P2.54mm_Horizontal.step"
+			(offset
+				(xyz 28 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 -180)
 			)
 		)
 	)
@@ -15041,14 +15087,13 @@
 		(descr "SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "JP2"
-			(at 0 -1.8 0)
+			(at 0.01 1.71 0)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "49c86dba-2cfd-4592-b18f-e8b8d95ecc50")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.7)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -16930,7 +16975,7 @@
 			(pintype "power_in")
 			(uuid "e7ab83c3-b483-4fb6-b6ea-a4689ed00fdd")
 		)
-		(model "C:/Users/Aerest/Documents/GitHub/esp32PLC/UPS_V1/3D file/TPS54331DR/D0008A.stp"
+		(model "C:/Users/ckabiling/OneDrive - Duke Manufacturing/Documents/Github/UPS/UPS_V1/3D file/TPS54331DR/D0008A.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -17951,14 +17996,13 @@
 		(descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "JP1"
-			(at 0.135 -1.755002 0)
+			(at 0 1.65 0)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "461ff368-3eaa-4a32-8984-17b1d841bf16")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.7)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -22293,7 +22337,7 @@
 				)
 			)
 		)
-		(property "Designation" "SOLAR_BYPASS"
+		(property "Designation" "SOLAR BYPASS"
 			(at 0 -1.75 90)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -22946,14 +22990,14 @@
 		(layer "Edge.Cuts")
 		(uuid "fd75dd26-9413-4a2c-bb65-d0740f0ac020")
 	)
-	(gr_text "OUTPUT"
+	(gr_text "OUTPUTS"
 		(at 162.73 47.66 90)
 		(layer "B.SilkS")
 		(uuid "02166fe8-e31f-4adc-909a-574f237d190a")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.15)
 			)
 			(justify left bottom mirror)
 		)
@@ -23036,14 +23080,14 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "INPUT"
+	(gr_text "INPUTS"
 		(at 162.6 61.6 90)
 		(layer "B.SilkS")
 		(uuid "2a1570e9-5c19-4260-b104-0753d5db44c1")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.15)
 			)
 			(justify left bottom mirror)
 		)
@@ -23074,6 +23118,18 @@
 			(justify left bottom mirror)
 		)
 	)
+	(gr_text "Charles Kim Kabiling\nAernest Rivera"
+		(at 140.67 88.61 -0)
+		(layer "B.SilkS")
+		(uuid "6d462893-9642-427b-8341-898e19de8ee1")
+		(effects
+			(font
+				(size 1 1.2)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(gr_text "GND"
 		(at 158.43 48.19 0)
 		(layer "B.SilkS")
@@ -23088,9 +23144,21 @@
 		)
 	)
 	(gr_text "CTRL"
-		(at 161.4 73.24 -90)
+		(at 162.55 69.6 90)
 		(layer "B.SilkS")
 		(uuid "a1dccf55-dda9-49d3-92d9-e938a1525ede")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "Designed By:\n"
+		(at 140.62 85.16 -0)
+		(layer "B.SilkS")
+		(uuid "c1ce2da1-18ed-49f3-a04a-8f6a1b55e481")
 		(effects
 			(font
 				(size 1 1)
@@ -23139,19 +23207,19 @@
 		)
 	)
 	(gr_text "SOLAR"
-		(at 162.18 60.91 90)
+		(at 162.5 61.083667 90)
 		(layer "F.SilkS")
 		(uuid "08eba9f6-5d01-488d-8b83-615198509e02")
 		(effects
 			(font
-				(size 0.5 0.5)
+				(size 0.7 0.5)
 				(thickness 0.1)
 			)
 			(justify left bottom)
 		)
 	)
-	(gr_text "GND"
-		(at 162.38 63.23 90)
+	(gr_text "G"
+		(at 162.5 62.787 90)
 		(layer "F.SilkS")
 		(uuid "1d75c41c-f601-4866-9df4-ede35a0c1026")
 		(effects
@@ -23202,24 +23270,24 @@
 		)
 	)
 	(gr_text "BAT+"
-		(at 162.18 65.51 90)
+		(at 162.5 65.961286 90)
 		(layer "F.SilkS")
 		(uuid "37312e4b-9d6a-41bd-ac80-4aef699652c5")
 		(effects
 			(font
-				(size 0.5 0.5)
+				(size 0.7 0.7)
 				(thickness 0.1)
 			)
 			(justify left bottom)
 		)
 	)
-	(gr_text "DC_IN"
-		(at 162.18 55.73 90)
+	(gr_text "VUSB"
+		(at 162.5 56.167 90)
 		(layer "F.SilkS")
 		(uuid "3824a110-22b5-44fc-a9fe-5b0f40d08305")
 		(effects
 			(font
-				(size 0.5 0.5)
+				(size 0.7 0.7)
 				(thickness 0.1)
 			)
 			(justify left bottom)
@@ -23251,8 +23319,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "GND"
-		(at 162.38 48.03 90)
+	(gr_text "G"
+		(at 162.5 47.547 90)
 		(layer "F.SilkS")
 		(uuid "44af684d-8053-4c53-adf1-1e599042f545")
 		(effects
@@ -23264,7 +23332,7 @@
 		)
 	)
 	(gr_text "5V"
-		(at 162.38 45.25 90)
+		(at 162.5 45.290334 90)
 		(layer "F.SilkS")
 		(uuid "45b9839b-48da-4430-af6c-1168ae6c8664")
 		(effects
@@ -23275,8 +23343,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "GND"
-		(at 162.38 53.22 90)
+	(gr_text "G"
+		(at 162.5 52.627 90)
 		(layer "F.SilkS")
 		(uuid "46092253-e78f-451e-b442-ae016061434e")
 		(effects
@@ -23313,8 +23381,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "GND"
-		(at 162.38 73.88 90)
+	(gr_text "G"
+		(at 162.5 73.07 90)
 		(layer "F.SilkS")
 		(uuid "5906de85-1a3c-4d63-a8fa-ce519750a720")
 		(effects
@@ -23326,7 +23394,7 @@
 		)
 	)
 	(gr_text "3V3"
-		(at 162.38 50.63 90)
+		(at 162.5 50.703667 90)
 		(layer "F.SilkS")
 		(uuid "5cf7c322-36ed-4075-aa21-6e472dc8868b")
 		(effects
@@ -23351,32 +23419,32 @@
 		)
 	)
 	(gr_text "EXT"
-		(at 131.68 89.3545 0)
+		(at 131.64 87.09 0)
 		(layer "F.SilkS")
 		(uuid "7cc66cfc-b995-4506-a497-01d80a93d790")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.25)
+				(size 0.5 0.5)
+				(thickness 0.125)
 				(bold yes)
 			)
 			(justify left bottom)
 		)
 	)
-	(gr_text "BST_EN"
-		(at 162.18 71.4 90)
+	(gr_text "BST"
+		(at 162.5 70.755571 90)
 		(layer "F.SilkS")
 		(uuid "abbedc72-1bb6-4603-9dad-a012d3d8106a")
 		(effects
 			(font
-				(size 0.5 0.5)
+				(size 0.7 0.5)
 				(thickness 0.1)
 			)
 			(justify left bottom)
 		)
 	)
-	(gr_text "GND"
-		(at 162.38 58.43 90)
+	(gr_text "G"
+		(at 162.5 57.707 90)
 		(layer "F.SilkS")
 		(uuid "b9d4ff97-ee87-459e-9ff1-ca2c91449917")
 		(effects
@@ -23413,34 +23481,21 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "SET"
-		(at 139.56 89.38 0)
-		(layer "F.SilkS")
-		(uuid "e13b00ac-ad40-4dc4-8de7-f237b9c81663")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.2)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "GND"
-		(at 135.92 89.3545 0)
+	(gr_text "G"
+		(at 137.49 87.08 0)
 		(layer "F.SilkS")
 		(uuid "e1f7e7b7-26cf-440f-bca7-3535e69d9672")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.25)
+				(size 0.5 0.5)
+				(thickness 0.125)
 				(bold yes)
 			)
 			(justify left bottom)
 		)
 	)
-	(gr_text "GND"
-		(at 162.38 68.48 90)
+	(gr_text "G"
+		(at 162.5 67.867 90)
 		(layer "F.SilkS")
 		(uuid "ee6bc85d-9747-4a50-b400-378b5d007543")
 		(effects
@@ -29231,7 +29286,7 @@
 				(xy 151.417273 39.7551) (xy 151.417263 39.7551) (xy 150.762729 39.7551) (xy 150.762723 39.755101)
 				(xy 150.703116 39.761508) (xy 150.568271 39.811802) (xy 150.568264 39.811806) (xy 150.512882 39.853266)
 				(xy 150.447418 39.877684) (xy 150.438571 39.878) (xy 150.368 39.878) (xy 150.368 39.897999) (xy 150.368 39.987689)
-				(xy 150.360182 40.031022) (xy 150.316508 40.148117) (xy 150.310101 40.207716) (xy 150.3101 40.207727)
+				(xy 150.360182 40.031022) (xy 150.316508 40.148117) (xy 150.310105 40.207676) (xy 150.3101 40.207727)
 				(xy 150.3101 41.167143) (xy 150.310101 42.04) (xy 150.290416 42.107039) (xy 150.237613 42.152794)
 				(xy 150.186101 42.164) (xy 149.73 42.164) (xy 149.662961 42.144315) (xy 149.617206 42.091511) (xy 149.606 42.04)
 				(xy 149.606 38.374052) (xy 149.625685 38.307013) (xy 149.642319 38.286371) (xy 149.66903 38.25966)
